@@ -1,0 +1,137 @@
+[
+  {
+    "label": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "raw": {
+        "imc": 22.04,
+        "min": 11.5,
+        "max": 16
+      },
+      "level": "info"
+    },
+    "originalInput": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": 66,
+      "ig_sem": 26
+    },
+    "expected": {
+      "raw": {
+        "ganho": 6,
+        "esp_min": 5.05,
+        "esp_max": 8.5
+      },
+      "level": "low"
+    },
+    "originalInput": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": 66,
+      "ig_sem": 26
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": 72,
+      "ig_sem": 26
+    },
+    "expected": {
+      "raw": {
+        "ganho": 12
+      },
+      "level": "mid",
+      "verdict": "acima"
+    },
+    "originalInput": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": 72,
+      "ig_sem": 26
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+    "input": {
+      "peso_pre": 95,
+      "altura": 160,
+      "gemelar": "0"
+    },
+    "expected": {
+      "raw": {
+        "imc": 37.11,
+        "min": 5,
+        "max": 9
+      }
+    },
+    "originalInput": {
+      "peso_pre": 95,
+      "altura": 160,
+      "gemelar": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+    "input": {
+      "peso_pre": 45,
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "raw": {
+        "imc": 16.53,
+        "min": 12.5,
+        "max": 18
+      }
+    },
+    "originalInput": {
+      "peso_pre": 45,
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "1"
+    },
+    "expected": {
+      "raw": {
+        "min": 17,
+        "max": 25
+      }
+    },
+    "originalInput": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "1"
+    },
+    "expandedZeroOptions": []
+  }
+]

@@ -1,0 +1,257 @@
+{
+  "tool": {
+    "id": "ganho-de-peso-gestacional",
+    "title": "Ganho de peso gestacional (IOM 2009)",
+    "short": "Faixa recomendada pelo IMC pré-gestacional",
+    "spec": [
+      "ginecologia-e-obstetricia",
+      "nutrologia",
+      "medicina-de-familia-e-comunidade"
+    ],
+    "desc": "Calcule o ganho de peso recomendado na gestação pelo IMC pré-gestacional (IOM 2009), o ritmo semanal e se o ganho atual está dentro do esperado.",
+    "lead": "Estima o ganho de peso total e semanal recomendado na gestação a partir do IMC pré-gestacional e compara o ganho atual com o esperado para a idade gestacional.",
+    "fields": [
+      [
+        "peso_pre",
+        "Peso pré-gestacional",
+        "num",
+        {
+          "min": 30,
+          "max": 250,
+          "step": 0.1,
+          "unit": "kg",
+          "ph": "60"
+        }
+      ],
+      [
+        "altura",
+        "Altura",
+        "num",
+        {
+          "min": 130,
+          "max": 200,
+          "step": 1,
+          "unit": "cm",
+          "ph": "163"
+        }
+      ],
+      [
+        "gemelar",
+        "Gestação",
+        "radio",
+        {
+          "opts": {
+            "0": "Única",
+            "1": "Gemelar"
+          }
+        }
+      ],
+      [
+        "peso_atual",
+        "Peso atual <small>(opcional)</small>",
+        "num",
+        {
+          "min": 30,
+          "max": 280,
+          "step": 0.1,
+          "unit": "kg",
+          "ph": "66",
+          "opt": true
+        }
+      ],
+      [
+        "ig_sem",
+        "Idade gestacional atual <small>(opcional)</small>",
+        "num",
+        {
+          "min": 4,
+          "max": 42,
+          "step": 1,
+          "unit": "semanas",
+          "ph": "26",
+          "opt": true
+        }
+      ]
+    ],
+    "formula": "<p>IMC pré-gestacional = peso ÷ altura² (kg/m²), classificado pela OMS. A faixa de ganho total e o ritmo semanal no 2º e 3º trimestres vêm da tabela do IOM (2009).</p><p><strong>Ganho esperado na idade gestacional</strong> (gestação única): até 13 semanas, até 2 kg; depois, de 0,5 kg + ritmo mínimo × (semanas − 13) a 2 kg + ritmo máximo × (semanas − 13), porque o IOM supõe ganho de 0,5 a 2 kg no 1º trimestre.</p>",
+    "table": [
+      [
+        "IMC pré-gestacional",
+        "Ganho total",
+        "Ritmo no 2º e 3º tri",
+        "Gemelar"
+      ],
+      [
+        "&lt; 18,5 (baixo peso)",
+        "12,5 a 18 kg",
+        "0,51 (0,44 a 0,58) kg/sem",
+        "sem recomendação"
+      ],
+      [
+        "18,5 a 24,9 (eutrofia)",
+        "11,5 a 16 kg",
+        "0,42 (0,35 a 0,50) kg/sem",
+        "17 a 25 kg"
+      ],
+      [
+        "25 a 29,9 (sobrepeso)",
+        "7 a 11,5 kg",
+        "0,28 (0,23 a 0,33) kg/sem",
+        "14 a 23 kg"
+      ],
+      [
+        "≥ 30 (obesidade)",
+        "5 a 9 kg",
+        "0,22 (0,17 a 0,27) kg/sem",
+        "11 a 19 kg"
+      ]
+    ],
+    "table_note": "Institute of Medicine (IOM), 2009. As faixas para gemelares são provisórias.",
+    "tips": [
+      "Use o peso pré-gestacional referido ou medido até a 13ª semana; se só houver peso posterior, a classificação do IMC fica menos confiável.",
+      "No Brasil, a Caderneta da Gestante passou a usar curvas brasileiras de ganho de peso por IMC (Kac e colaboradores, 2021), construídas com gestantes brasileiras saudáveis: prefira-as para o acompanhamento semana a semana na atenção primária.",
+      "Ganho acima do recomendado se associa a macrossomia, cesárea e retenção de peso pós-parto; ganho abaixo, a recém-nascido pequeno para a idade gestacional e parto prematuro.",
+      "Ganho rápido (mais de 1 kg por semana) no 3º trimestre, sobretudo com edema de face e mãos, exige medir a pressão arterial e investigar pré-eclâmpsia.",
+      "Em adolescentes, use o IMC para a idade (curvas da OMS) em vez dos pontos de corte de adultas."
+    ],
+    "sources": [
+      [
+        "Institute of Medicine; National Research Council. Weight Gain During Pregnancy: Reexamining the Guidelines. National Academies Press, 2009.",
+        "https://doi.org/10.17226/12584"
+      ],
+      [
+        "Kac G et al. Gestational weight gain charts: results from the Brazilian Maternal and Child Nutrition Consortium. Am J Clin Nutr, 2021.",
+        "https://doi.org/10.1093/ajcn/nqaa402"
+      ]
+    ],
+    "cases": [
+      [
+        "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+        {
+          "peso_pre": 60,
+          "altura": 165,
+          "gemelar": "0"
+        },
+        {
+          "raw": {
+            "imc": 22.04,
+            "min": 11.5,
+            "max": 16
+          },
+          "level": "info"
+        }
+      ],
+      [
+        "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+        {
+          "peso_pre": 60,
+          "altura": 165,
+          "gemelar": "0",
+          "peso_atual": 66,
+          "ig_sem": 26
+        },
+        {
+          "raw": {
+            "ganho": 6,
+            "esp_min": 5.05,
+            "esp_max": 8.5
+          },
+          "level": "low"
+        }
+      ],
+      [
+        "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+        {
+          "peso_pre": 60,
+          "altura": 165,
+          "gemelar": "0",
+          "peso_atual": 72,
+          "ig_sem": 26
+        },
+        {
+          "raw": {
+            "ganho": 12
+          },
+          "level": "mid",
+          "verdict": "acima"
+        }
+      ],
+      [
+        "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+        {
+          "peso_pre": 95,
+          "altura": 160,
+          "gemelar": "0"
+        },
+        {
+          "raw": {
+            "imc": 37.11,
+            "min": 5,
+            "max": 9
+          }
+        }
+      ],
+      [
+        "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+        {
+          "peso_pre": 45,
+          "altura": 165,
+          "gemelar": "0"
+        },
+        {
+          "raw": {
+            "imc": 16.53,
+            "min": 12.5,
+            "max": 18
+          }
+        }
+      ],
+      [
+        "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+        {
+          "peso_pre": 60,
+          "altura": 165,
+          "gemelar": "1"
+        },
+        {
+          "raw": {
+            "min": 17,
+            "max": 25
+          }
+        }
+      ]
+    ],
+    "batch": "mulher-crianca",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "mulher-crianca",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/mulher-crianca.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 6,
+      "passed": 6,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/mulher-crianca.php",
+    "sha256": "c37d3fefb430d6ec19144161e40e9a08247f3a10406e2873c8d6a4be8649917c",
+    "bytes": 81915
+  },
+  "clinicalValidation": "not-performed"
+}

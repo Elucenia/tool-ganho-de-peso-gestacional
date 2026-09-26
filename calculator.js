@@ -1,11 +1,11 @@
-/* tool-ganho-de-peso-gestacional · Elucenia · https://github.com/Elucenia/tool-ganho-de-peso-gestacional
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-ganho-de-peso-gestacional · ELUCENIA · https://github.com/Elucenia/tool-ganho-de-peso-gestacional
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"ganho-de-peso-gestacional","title":"Ganho de peso gestacional (IOM 2009)","fields":[["peso_pre","Peso pré-gestacional","num",{"min":30,"max":250,"step":0.1,"unit":"kg","ph":"60"}],["altura","Altura","num",{"min":130,"max":200,"step":1,"unit":"cm","ph":"163"}],["gemelar","Gestação","radio",{"opts":{"0":"Única","1":"Gemelar"}}],["peso_atual","Peso atual <small>(opcional)</small>","num",{"min":30,"max":280,"step":0.1,"unit":"kg","ph":"66","opt":true}],["ig_sem","Idade gestacional atual <small>(opcional)</small>","num",{"min":4,"max":42,"step":1,"unit":"semanas","ph":"26","opt":true}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};

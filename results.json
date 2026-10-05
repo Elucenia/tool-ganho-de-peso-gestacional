@@ -1,0 +1,756 @@
+{
+  "id": "ganho-de-peso-gestacional",
+  "at": "2026-10-05T17:29:37.111Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+    "bytes": 9023,
+    "sha256": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f"
+  },
+  "cases": [
+    {
+      "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+      "input": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "0"
+      },
+      "obtained": {
+        "id": "ganho-de-peso-gestacional",
+        "main": [
+          "11,5 a 16,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009)",
+        "raw": {
+          "imc": 22.03856749311295,
+          "min": 11.5,
+          "max": 16
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.imc",
+          "expected": 22.04,
+          "obtained": 22.03856749311295,
+          "tolerance": 0.00500001,
+          "difference": 0.001432506887049101,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.min",
+          "expected": 11.5,
+          "obtained": 11.5,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.max",
+          "expected": 16,
+          "obtained": 16,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.imc",
+          "expected": 22.03856749311295,
+          "obtained": 22.03856749311295,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.min",
+          "expected": 11.5,
+          "obtained": 11.5,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.max",
+          "expected": 16,
+          "obtained": 16,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "11,5 a 16,0",
+          "obtained": "11,5 a 16,0",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "kg no total",
+          "obtained": "kg no total",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+      "input": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "0",
+        "peso_atual": 66,
+        "ig_sem": 26
+      },
+      "obtained": {
+        "id": "ganho-de-peso-gestacional",
+        "main": [
+          "11,5 a 16,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009)",
+        "raw": {
+          "imc": 22.03856749311295,
+          "min": 11.5,
+          "max": 16,
+          "ganho": 6,
+          "esp_min": 5.05,
+          "esp_max": 8.5
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.ganho",
+          "expected": 6,
+          "obtained": 6,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.esp_min",
+          "expected": 5.05,
+          "obtained": 5.05,
+          "tolerance": 0.00500001,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.esp_max",
+          "expected": 8.5,
+          "obtained": 8.5,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.imc",
+          "expected": 22.03856749311295,
+          "obtained": 22.03856749311295,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.min",
+          "expected": 11.5,
+          "obtained": 11.5,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.max",
+          "expected": 16,
+          "obtained": 16,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.ganho",
+          "expected": 6,
+          "obtained": 6,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.esp_min",
+          "expected": 5.05,
+          "obtained": 5.05,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.esp_max",
+          "expected": 8.5,
+          "obtained": 8.5,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "11,5 a 16,0",
+          "obtained": "11,5 a 16,0",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "kg no total",
+          "obtained": "kg no total",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+      "input": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "0",
+        "peso_atual": 72,
+        "ig_sem": 26
+      },
+      "obtained": {
+        "id": "ganho-de-peso-gestacional",
+        "main": [
+          "11,5 a 16,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009)",
+        "raw": {
+          "imc": 22.03856749311295,
+          "min": 11.5,
+          "max": 16,
+          "ganho": 12,
+          "esp_min": 5.05,
+          "esp_max": 8.5
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.ganho",
+          "expected": 12,
+          "obtained": 12,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.imc",
+          "expected": 22.03856749311295,
+          "obtained": 22.03856749311295,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.min",
+          "expected": 11.5,
+          "obtained": 11.5,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.max",
+          "expected": 16,
+          "obtained": 16,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.ganho",
+          "expected": 12,
+          "obtained": 12,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.esp_min",
+          "expected": 5.05,
+          "obtained": 5.05,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.esp_max",
+          "expected": 8.5,
+          "obtained": 8.5,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "11,5 a 16,0",
+          "obtained": "11,5 a 16,0",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "kg no total",
+          "obtained": "kg no total",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+      "input": {
+        "peso_pre": 95,
+        "altura": 160,
+        "gemelar": "0"
+      },
+      "obtained": {
+        "id": "ganho-de-peso-gestacional",
+        "main": [
+          "5,0 a 9,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009)",
+        "raw": {
+          "imc": 37.10937499999999,
+          "min": 5,
+          "max": 9
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.imc",
+          "expected": 37.11,
+          "obtained": 37.10937499999999,
+          "tolerance": 0.00500001,
+          "difference": 0.000625000000006537,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.min",
+          "expected": 5,
+          "obtained": 5,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.max",
+          "expected": 9,
+          "obtained": 9,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.imc",
+          "expected": 37.10937499999999,
+          "obtained": 37.10937499999999,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.min",
+          "expected": 5,
+          "obtained": 5,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.max",
+          "expected": 9,
+          "obtained": 9,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "5,0 a 9,0",
+          "obtained": "5,0 a 9,0",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "kg no total",
+          "obtained": "kg no total",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    },
+    {
+      "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+      "input": {
+        "peso_pre": 45,
+        "altura": 165,
+        "gemelar": "0"
+      },
+      "obtained": {
+        "id": "ganho-de-peso-gestacional",
+        "main": [
+          "12,5 a 18,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009)",
+        "raw": {
+          "imc": 16.528925619834713,
+          "min": 12.5,
+          "max": 18
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.imc",
+          "expected": 16.53,
+          "obtained": 16.528925619834713,
+          "tolerance": 0.00500001,
+          "difference": 0.001074380165288602,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.min",
+          "expected": 12.5,
+          "obtained": 12.5,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.max",
+          "expected": 18,
+          "obtained": 18,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.imc",
+          "expected": 16.528925619834713,
+          "obtained": 16.528925619834713,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.min",
+          "expected": 12.5,
+          "obtained": 12.5,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.max",
+          "expected": 18,
+          "obtained": 18,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "12,5 a 18,0",
+          "obtained": "12,5 a 18,0",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "kg no total",
+          "obtained": "kg no total",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    },
+    {
+      "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+      "input": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "1"
+      },
+      "obtained": {
+        "id": "ganho-de-peso-gestacional",
+        "main": [
+          "17,0 a 25,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009) · gemelar",
+        "raw": {
+          "imc": 22.03856749311295,
+          "min": 17,
+          "max": 25
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.min",
+          "expected": 17,
+          "obtained": 17,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.max",
+          "expected": 25,
+          "obtained": 25,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.imc",
+          "expected": 22.03856749311295,
+          "obtained": 22.03856749311295,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.min",
+          "expected": 17,
+          "obtained": 17,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.max",
+          "expected": 25,
+          "obtained": 25,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "17,0 a 25,0",
+          "obtained": "17,0 a 25,0",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "kg no total",
+          "obtained": "kg no total",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 43,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}

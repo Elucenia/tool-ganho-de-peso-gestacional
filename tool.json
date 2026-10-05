@@ -3,13 +3,14 @@
     "id": "ganho-de-peso-gestacional",
     "title": "Ganho de peso gestacional (IOM 2009)",
     "short": "Faixa recomendada pelo IMC pré-gestacional",
+    "desc": "Calcule o ganho de peso recomendado na gestação pelo IMC pré-gestacional (IOM 2009), o ritmo semanal e se o ganho atual está dentro do esperado.",
+    "lead": "Estima o ganho de peso total e semanal recomendado na gestação a partir do IMC pré-gestacional e compara o ganho atual com o esperado para a idade gestacional.",
+    "kind": "Calculadora",
     "spec": [
       "ginecologia-e-obstetricia",
       "nutrologia",
       "medicina-de-familia-e-comunidade"
     ],
-    "desc": "Calcule o ganho de peso recomendado na gestação pelo IMC pré-gestacional (IOM 2009), o ritmo semanal e se o ganho atual está dentro do esperado.",
-    "lead": "Estima o ganho de peso total e semanal recomendado na gestação a partir do IMC pré-gestacional e compara o ganho atual com o esperado para a idade gestacional.",
     "fields": [
       [
         "peso_pre",
@@ -74,46 +75,6 @@
       ]
     ],
     "formula": "<p>IMC pré-gestacional = peso ÷ altura² (kg/m²), classificado pela OMS. A faixa de ganho total e o ritmo semanal no 2º e 3º trimestres vêm da tabela do IOM (2009).</p><p><strong>Ganho esperado na idade gestacional</strong> (gestação única): até 13 semanas, até 2 kg; depois, de 0,5 kg + ritmo mínimo × (semanas − 13) a 2 kg + ritmo máximo × (semanas − 13), porque o IOM supõe ganho de 0,5 a 2 kg no 1º trimestre.</p>",
-    "table": [
-      [
-        "IMC pré-gestacional",
-        "Ganho total",
-        "Ritmo no 2º e 3º tri",
-        "Gemelar"
-      ],
-      [
-        "&lt; 18,5 (baixo peso)",
-        "12,5 a 18 kg",
-        "0,51 (0,44 a 0,58) kg/sem",
-        "sem recomendação"
-      ],
-      [
-        "18,5 a 24,9 (eutrofia)",
-        "11,5 a 16 kg",
-        "0,42 (0,35 a 0,50) kg/sem",
-        "17 a 25 kg"
-      ],
-      [
-        "25 a 29,9 (sobrepeso)",
-        "7 a 11,5 kg",
-        "0,28 (0,23 a 0,33) kg/sem",
-        "14 a 23 kg"
-      ],
-      [
-        "≥ 30 (obesidade)",
-        "5 a 9 kg",
-        "0,22 (0,17 a 0,27) kg/sem",
-        "11 a 19 kg"
-      ]
-    ],
-    "table_note": "Institute of Medicine (IOM), 2009. As faixas para gemelares são provisórias.",
-    "tips": [
-      "Use o peso pré-gestacional referido ou medido até a 13ª semana; se só houver peso posterior, a classificação do IMC fica menos confiável.",
-      "No Brasil, a Caderneta da Gestante passou a usar curvas brasileiras de ganho de peso por IMC (Kac e colaboradores, 2021), construídas com gestantes brasileiras saudáveis: prefira-as para o acompanhamento semana a semana na atenção primária.",
-      "Ganho acima do recomendado se associa a macrossomia, cesárea e retenção de peso pós-parto; ganho abaixo, a recém-nascido pequeno para a idade gestacional e parto prematuro.",
-      "Ganho rápido (mais de 1 kg por semana) no 3º trimestre, sobretudo com edema de face e mãos, exige medir a pressão arterial e investigar pré-eclâmpsia.",
-      "Em adolescentes, use o IMC para a idade (curvas da OMS) em vez dos pontos de corte de adultas."
-    ],
     "sources": [
       [
         "Institute of Medicine; National Research Council. Weight Gain During Pregnancy: Reexamining the Guidelines. National Academies Press, 2009.",
@@ -122,6 +83,14 @@
       [
         "Kac G et al. Gestational weight gain charts: results from the Brazilian Maternal and Child Nutrition Consortium. Am J Clin Nutr, 2021.",
         "https://doi.org/10.1093/ajcn/nqaa402"
+      ],
+      [
+        "IOM/NRC2009,WeightGainDuringPregnancy,chapter7",
+        "https://www.nationalacademies.org/read/12584/chapter/9"
+      ],
+      [
+        "IOM2009 official report brief",
+        "https://nap.nationalacademies.org/resource/12584/Resource-Page---Weight-Gain-During-Pregnancy.pdf"
       ]
     ],
     "cases": [
@@ -221,9 +190,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -232,17 +198,414 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T16:03:00.366Z",
+      "total": 218,
+      "passed": 218,
+      "sourceRowCount": 218,
+      "uniqueApiInputCount": 218,
+      "sourceContextCount": 218,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "4ef072231050ab6b1dd21880bd8901a62e1469c2ab54f4ef399a4c5f33d2ba22",
+        "total": 218,
+        "bankRowCount": 218,
+        "uniqueApiInputCount": 218,
+        "sourceContextCount": 218,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/pregnancy-bmi-display-independent-oracle-final25.json",
+            "sha256": "8cc918deed5805fc54fd6d2645f42a978216288ff3820386499dd5c2e5740f06"
+          },
+          {
+            "file": "reports/review-20261003/three-composition-nine-bmi-expected-final25.json",
+            "sha256": "6afa3620a4af8c898172810999b33f97cb6c33bc7c65e52618abb2d87eca867c"
+          },
+          {
+            "file": "reports/review-20261003/pregnancy-twin-independent-source-oracle-final25.json",
+            "sha256": "91d1edaf93b234b4842c3cf4ce4287548d4f94703feaa25309e94f414be51e30"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/three-method-source-composition-independent-review-final25-v6.json",
+          "sha256": "d3c817a6da4bc80d587564c35c414450ffa965e3270e013015abfbb6aa6be4e5"
+        },
+        "packagingRequirement": "Copy this complete hashed bank into the fresh25 package. Previous24 packages and historical report ZIPs remain frozen and do not contain this evidence."
+      },
+      "inputIdentity": {
+        "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+        "audit": {
+          "file": "reports/review-20261003/three-prospective-source-input-identity-audit-final25-r2.json",
+          "sha256": "8a92ba3da5694cba856099c1165be0a25fba8eebcca9094ad5edd602ee398570"
+        },
+        "sourceRows": 218,
+        "uniqueApiInputs": 218,
+        "duplicateRows": 0
+      },
+      "scope": "IOM/NRC2009 Table7-3: canonical-decimal BMI categories, unrounded rawBMI within frozen4EPS magnitude criterion, singleton total ranges and category-consistent display. Women with Multiple Fetuses pp252–253: provisional observational twin total ranges only; underweight twin cases have no numerical range. Weekly projections, individual nutrition, safety/outcomes and full-method/clinical approval excluded.",
+      "sources": [
+        {
+          "url": "https://www.nationalacademies.org/read/12584/chapter/9",
+          "locator": "Table7-3 p255 BMI categories and singleton total ranges"
+        },
+        {
+          "url": "https://www.nationalacademies.org/read/12584/chapter/9",
+          "edition": "IOM/NRC2009 DOI10.17226/12584",
+          "locator": "Women with Multiple Fetuses p252–253; Table7-3 p255; prepregnancyBMI chapter discussion p251",
+          "access": "Original National Academies chapter directly reopened2026-10-04. Provisional twins subsection, its insufficient-underweight-data statement and Table7-3 read.",
+          "scope": "BMI categories and provisional twin total ranges only. Source describes interquartile observational ranges at37–42weeks, not individualized safety, full-method or clinical approval."
+        }
+      ],
+      "evidencePath": "reports/review-20261003/three-method-source-composition-independent-review-final25-v6.json",
+      "evidenceSha256": "d3c817a6da4bc80d587564c35c414450ffa965e3270e013015abfbb6aa6be4e5",
+      "peerEvidencePath": "reports/review-20261003/three-method-source-composition-independent-review-final25-v6.json",
+      "peerEvidenceSha256": "d3c817a6da4bc80d587564c35c414450ffa965e3270e013015abfbb6aa6be4e5",
+      "actualAdapterExecutions": 654,
+      "implementations": [
+        {
+          "id": "ganho-de-peso-gestacional",
+          "app": "website",
+          "file": "apps/website/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+          "candidatePath": "reports/review-20261003/three-method-source-composition-stage-final25-v6/apps/website/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+          "sha256": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f"
+        },
+        {
+          "id": "ganho-de-peso-gestacional",
+          "app": "dashboard",
+          "file": "apps/dashboard/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+          "candidatePath": "reports/review-20261003/three-method-source-composition-stage-final25-v6/apps/dashboard/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+          "sha256": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f"
+        },
+        {
+          "id": "ganho-de-peso-gestacional",
+          "app": "command-center",
+          "file": "apps/command-center/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+          "candidatePath": "reports/review-20261003/three-method-source-composition-stage-final25-v6/apps/command-center/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+          "sha256": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f"
+        }
+      ],
+      "qualifications": [
+        "IOM/NRC2009 Table7-3: canonical-decimal BMI categories, unrounded rawBMI within frozen4EPS magnitude criterion, singleton total ranges and category-consistent display. Women with Multiple Fetuses pp252–253: provisional observational twin total ranges only; underweight twin cases have no numerical range. Weekly projections, individual nutrition, safety/outcomes and full-method/clinical approval excluded.",
+        "All862 original historical source fixtures/expected values/tolerances preserved. Four inline metadata cases are a declared subset of this complete downloadable bank.",
+        "Named arithmetic/source-code scope only; clinical, professional-language, instrument-rights and full-method approvals not performed."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "IOMNRC 2009:IMCprégestação, faixatotal/ritmosemanal; projeção local após 13 semanas",
+    "implementationVersion": "ganho-de-peso-gestacional@native-2026-10-03+9b054432c31b",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/20669500/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "IMC pré-gestacional = peso ÷ altura² (kg/m²), classificado pela OMS. A faixa de ganho total e o ritmo semanal no 2º e 3º trimestres vêm da tabela do IOM (2009). Ganho esperado na idade gestacional (gestação única): até 13 semanas, até 2 kg; depois, de 0,5 kg + ritmo mínimo × (semanas − 13) a 2 kg + ritmo máximo × (semanas − 13), porque o IOM supõe ganho de 0,5 a 2 kg no 1º trimestre.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "peso_pre",
+            "label": "Peso pré-gestacional",
+            "type": "num",
+            "min": 30,
+            "max": 250,
+            "unit": "kg",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "altura",
+            "label": "Altura",
+            "type": "num",
+            "min": 130,
+            "max": 200,
+            "unit": "cm",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "gemelar",
+            "label": "Gestação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Única",
+              "1": "Gemelar"
+            }
+          },
+          {
+            "key": "peso_atual",
+            "label": "Peso atual <small>(opcional)</small>",
+            "type": "num",
+            "min": 30,
+            "max": 280,
+            "unit": "kg",
+            "optional": true,
+            "options": null
+          },
+          {
+            "key": "ig_sem",
+            "label": "Idade gestacional atual <small>(opcional)</small>",
+            "type": "num",
+            "min": 4,
+            "max": 42,
+            "unit": "semanas",
+            "optional": true,
+            "options": null
+          }
+        ],
+        "hash": "94a29fd619df1d98e8aa49b52e06da9b65229f61ba4acbfbb91b0c502372b5ad"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Institute of Medicine; National Research Council. Weight Gain During Pregnancy: Reexamining the Guidelines. National Academies Press, 2009.",
+          "url": "https://doi.org/10.17226/12584",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Weight Gain During Pregnancy: Reexamining the Guidelines",
+            "year": "2009",
+            "firstPublicationDate": "2009-01-01",
+            "pmid": "20669500",
+            "authors": "Institute of Medicine (US) and National Research Council (US) Committee to Reexamine IOM Pregnancy Weight Guidelines."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/20669500/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "56cb64169214a520450276deac055e2d3f9085e160102531a09069feeb8e17b7",
+          "matchedBy": "exact-publication-title"
+        },
+        {
+          "citation": "Kac G et al. Gestational weight gain charts: results from the Brazilian Maternal and Child Nutrition Consortium. Am J Clin Nutr, 2021.",
+          "url": "https://doi.org/10.1093/ajcn/nqaa402",
+          "class": "primary-publication-full-text-retrieved",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": true,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Gestational weight gain charts: results from the Brazilian Maternal and Child Nutrition Consortium.",
+            "year": "2021",
+            "firstPublicationDate": "2021-05-01",
+            "doi": "10.1093/ajcn/nqaa402",
+            "pmid": "33740055",
+            "pmcid": "PMC8106749",
+            "journal": "The American journal of clinical nutrition",
+            "authors": "Kac G, Carilho TRB, Rasmussen KM, Reichenheim ME, Farias DR, Hutcheon JA, Brazilian Maternal and Child Nutrition Consortium."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8106749/",
+          "abstractAvailable": true,
+          "fullTextSha256": "c5fe322041668754a177435fabe3fc5e2689d2a916860a636c8d2fcee3262836",
+          "abstractSha256": "9bf3e62564f312ef237b3b29434d1d3b14f8080465d7dfb2a3870577a0686f17",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T16:03:00.366Z",
+        "total": 218,
+        "passed": 218,
+        "sourceRowCount": 218,
+        "uniqueApiInputCount": 218,
+        "sourceContextCount": 218,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "4ef072231050ab6b1dd21880bd8901a62e1469c2ab54f4ef399a4c5f33d2ba22",
+          "total": 218,
+          "bankRowCount": 218,
+          "uniqueApiInputCount": 218,
+          "sourceContextCount": 218,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/pregnancy-bmi-display-independent-oracle-final25.json",
+              "sha256": "8cc918deed5805fc54fd6d2645f42a978216288ff3820386499dd5c2e5740f06"
+            },
+            {
+              "file": "reports/review-20261003/three-composition-nine-bmi-expected-final25.json",
+              "sha256": "6afa3620a4af8c898172810999b33f97cb6c33bc7c65e52618abb2d87eca867c"
+            },
+            {
+              "file": "reports/review-20261003/pregnancy-twin-independent-source-oracle-final25.json",
+              "sha256": "91d1edaf93b234b4842c3cf4ce4287548d4f94703feaa25309e94f414be51e30"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/three-method-source-composition-independent-review-final25-v6.json",
+            "sha256": "d3c817a6da4bc80d587564c35c414450ffa965e3270e013015abfbb6aa6be4e5"
+          },
+          "packagingRequirement": "Copy this complete hashed bank into the fresh25 package. Previous24 packages and historical report ZIPs remain frozen and do not contain this evidence."
+        },
+        "inputIdentity": {
+          "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+          "audit": {
+            "file": "reports/review-20261003/three-prospective-source-input-identity-audit-final25-r2.json",
+            "sha256": "8a92ba3da5694cba856099c1165be0a25fba8eebcca9094ad5edd602ee398570"
+          },
+          "sourceRows": 218,
+          "uniqueApiInputs": 218,
+          "duplicateRows": 0
+        },
+        "scope": "IOM/NRC2009 Table7-3: canonical-decimal BMI categories, unrounded rawBMI within frozen4EPS magnitude criterion, singleton total ranges and category-consistent display. Women with Multiple Fetuses pp252–253: provisional observational twin total ranges only; underweight twin cases have no numerical range. Weekly projections, individual nutrition, safety/outcomes and full-method/clinical approval excluded.",
+        "sources": [
+          {
+            "url": "https://www.nationalacademies.org/read/12584/chapter/9",
+            "locator": "Table7-3 p255 BMI categories and singleton total ranges"
+          },
+          {
+            "url": "https://www.nationalacademies.org/read/12584/chapter/9",
+            "edition": "IOM/NRC2009 DOI10.17226/12584",
+            "locator": "Women with Multiple Fetuses p252–253; Table7-3 p255; prepregnancyBMI chapter discussion p251",
+            "access": "Original National Academies chapter directly reopened2026-10-04. Provisional twins subsection, its insufficient-underweight-data statement and Table7-3 read.",
+            "scope": "BMI categories and provisional twin total ranges only. Source describes interquartile observational ranges at37–42weeks, not individualized safety, full-method or clinical approval."
+          }
+        ],
+        "evidencePath": "reports/review-20261003/three-method-source-composition-independent-review-final25-v6.json",
+        "evidenceSha256": "d3c817a6da4bc80d587564c35c414450ffa965e3270e013015abfbb6aa6be4e5",
+        "peerEvidencePath": "reports/review-20261003/three-method-source-composition-independent-review-final25-v6.json",
+        "peerEvidenceSha256": "d3c817a6da4bc80d587564c35c414450ffa965e3270e013015abfbb6aa6be4e5",
+        "actualAdapterExecutions": 654,
+        "implementations": [
+          {
+            "id": "ganho-de-peso-gestacional",
+            "app": "website",
+            "file": "apps/website/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+            "candidatePath": "reports/review-20261003/three-method-source-composition-stage-final25-v6/apps/website/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+            "sha256": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f"
+          },
+          {
+            "id": "ganho-de-peso-gestacional",
+            "app": "dashboard",
+            "file": "apps/dashboard/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+            "candidatePath": "reports/review-20261003/three-method-source-composition-stage-final25-v6/apps/dashboard/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+            "sha256": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f"
+          },
+          {
+            "id": "ganho-de-peso-gestacional",
+            "app": "command-center",
+            "file": "apps/command-center/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+            "candidatePath": "reports/review-20261003/three-method-source-composition-stage-final25-v6/apps/command-center/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+            "sha256": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f"
+          }
+        ],
+        "qualifications": [
+          "IOM/NRC2009 Table7-3: canonical-decimal BMI categories, unrounded rawBMI within frozen4EPS magnitude criterion, singleton total ranges and category-consistent display. Women with Multiple Fetuses pp252–253: provisional observational twin total ranges only; underweight twin cases have no numerical range. Weekly projections, individual nutrition, safety/outcomes and full-method/clinical approval excluded.",
+          "All862 original historical source fixtures/expected values/tolerances preserved. Four inline metadata cases are a declared subset of this complete downloadable bank.",
+          "Named arithmetic/source-code scope only; clinical, professional-language, instrument-rights and full-method approvals not performed."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f",
+      "sourceNumericsAmendment": {
+        "recordedAt": "2026-10-04T16:03:00.367Z",
+        "sourceComposition": {
+          "file": "reports/review-20261003/three-method-source-composition-candidate-final25-v6.json",
+          "sha256": "4a00118c9edd7ddc0754e0b26f99b277bd440b3de9dfd90aee7fbbce889d0733"
+        },
+        "independentCompositionPeer": {
+          "file": "reports/review-20261003/three-method-source-composition-independent-review-final25-v6.json",
+          "sha256": "d3c817a6da4bc80d587564c35c414450ffa965e3270e013015abfbb6aa6be4e5"
+        },
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/pregnancy-bmi-display-independent-oracle-final25.json",
+            "sha256": "8cc918deed5805fc54fd6d2645f42a978216288ff3820386499dd5c2e5740f06"
+          },
+          {
+            "file": "reports/review-20261003/three-composition-nine-bmi-expected-final25.json",
+            "sha256": "6afa3620a4af8c898172810999b33f97cb6c33bc7c65e52618abb2d87eca867c"
+          },
+          {
+            "file": "reports/review-20261003/pregnancy-twin-independent-source-oracle-final25.json",
+            "sha256": "91d1edaf93b234b4842c3cf4ce4287548d4f94703feaa25309e94f414be51e30"
+          }
+        ],
+        "inputIdentityAudit": {
+          "file": "reports/review-20261003/three-prospective-source-input-identity-audit-final25-r2.json",
+          "sha256": "8a92ba3da5694cba856099c1165be0a25fba8eebcca9094ad5edd602ee398570"
+        },
+        "beforeHash": "598b725b4eeee76608540d04cb560f345df94302e3a61153af1cbebe5ac5d32b",
+        "afterHash": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f",
+        "scope": "IOM/NRC2009 Table7-3: canonical-decimal BMI categories, unrounded rawBMI within frozen4EPS magnitude criterion, singleton total ranges and category-consistent display. Women with Multiple Fetuses pp252–253: provisional observational twin total ranges only; underweight twin cases have no numerical range. Weekly projections, individual nutrition, safety/outcomes and full-method/clinical approval excluded.",
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "originalSourceCasesPreserved": true,
+        "originalTolerancesPreserved": true
+      }
+    },
+    "limits": "As faixas são da IOM 2009, elaboradas para gestantes nos Estados Unidos; não são as curvas percentílicas brasileiras de Kac. Use IMC pré-gestacional. As faixas para gestação gemelar são provisórias e não há faixa estabelecida para gemelares com baixo peso nesta fonte. A estimativa por semana da interface combina pressupostos de ganho no primeiro trimestre e taxas posteriores; não é percentil individual nem previsão de desfecho. A aplicação em populações com diferenças importantes de estatura, nutrição ou assistência obstétrica exige avaliação contextual.",
+    "limitsEvidence": {
+      "status": "direct-original-chapter-sections-and-official-table-read",
+      "sources": [
+        {
+          "url": "https://www.nationalacademies.org/read/12584/chapter/9",
+          "edition": "IOM/NRC2009,WeightGainDuringPregnancy,chapter7",
+          "readScope": "Direct original chapter: Table7-3, Special Populations, total/rate and twin provisional guidance; named sections only, not whole book."
+        },
+        {
+          "url": "https://nap.nationalacademies.org/resource/12584/Resource-Page---Weight-Gain-During-Pregnancy.pdf",
+          "edition": "IOM2009 official report brief",
+          "readScope": "Official two-page PDF,Table1 and footnote visually read.",
+          "capture": "primary-verify-limits-final23/iom2009-p1.png",
+          "pdfSha256": "69842339b1dbf45c778f34b5e6385b40b35c33efb67beb344e74b62bcdd023c6"
+        },
+        {
+          "url": "https://doi.org/10.1093/ajcn/nqaa402",
+          "edition": "Kac2021",
+          "readScope": "Inherited Western original abstract: Brazilian adult singleton cohort charts; explicitly not IOM guideline eligibility.",
+          "inheritedEvidence": "remaining46-verify-source-handoff-final23.json"
+        }
+      ],
+      "populationScope": "IOM2009 BMI-based pregnancy guidance developed for US women; twins provisional and underweight twins lack range.",
+      "remainingChecks": [
+        "No new individual pregnancy-outcome or non-US population validation.",
+        "Local weekly projection is not an original percentile chart.",
+        "Source does not provide underweight-twin target."
+      ],
+      "clinicalValidation": "not-performed",
+      "professionalLanguageReview": "not-performed",
+      "rightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+    "bytes": 9023,
+    "sha256": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "b9ff0efcf0c2b8492f7d819102763f937e1a985f087b1d66675118d9750b214e",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "60db32e4106b846fc53d9b5cf26ea440e9d95b85d05727779a5dbc0756cbe2f7",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "60db32e4106b846fc53d9b5cf26ea440e9d95b85d05727779a5dbc0756cbe2f7",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

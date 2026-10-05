@@ -1,0 +1,558 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field peso_pre",
+    "input": {
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "peso_pre"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field peso_pre",
+    "input": {
+      "peso_pre": "",
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "peso_pre"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" peso_pre",
+    "input": {
+      "peso_pre": "NaN",
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_pre"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" peso_pre",
+    "input": {
+      "peso_pre": "Infinity",
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_pre"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" peso_pre",
+    "input": {
+      "peso_pre": "1e309",
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_pre"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" peso_pre",
+    "input": {
+      "peso_pre": "invalid",
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_pre"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} peso_pre",
+    "input": {
+      "peso_pre": {},
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_pre"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true peso_pre",
+    "input": {
+      "peso_pre": true,
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_pre"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum peso_pre",
+    "input": {
+      "peso_pre": 27,
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "peso_pre"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum peso_pre",
+    "input": {
+      "peso_pre": 275,
+      "altura": 165,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "peso_pre"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field altura",
+    "input": {
+      "peso_pre": 60,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "altura"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field altura",
+    "input": {
+      "peso_pre": 60,
+      "altura": "",
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "altura"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" altura",
+    "input": {
+      "peso_pre": 60,
+      "altura": "NaN",
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "altura"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" altura",
+    "input": {
+      "peso_pre": 60,
+      "altura": "Infinity",
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "altura"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" altura",
+    "input": {
+      "peso_pre": 60,
+      "altura": "1e309",
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "altura"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" altura",
+    "input": {
+      "peso_pre": 60,
+      "altura": "invalid",
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "altura"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} altura",
+    "input": {
+      "peso_pre": 60,
+      "altura": {},
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "altura"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true altura",
+    "input": {
+      "peso_pre": 60,
+      "altura": true,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "altura"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum altura",
+    "input": {
+      "peso_pre": 60,
+      "altura": 117,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "altura"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum altura",
+    "input": {
+      "peso_pre": 60,
+      "altura": 220,
+      "gemelar": "0"
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "altura"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field gemelar",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "gemelar"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field gemelar",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": ""
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "gemelar"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject undocumented option gemelar",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "__ELUCENIA_INVALID_OPTION__"
+    },
+    "expected": {
+      "code": "INVALID_OPTION",
+      "field": "gemelar"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" peso_atual",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": "NaN"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_atual"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" peso_atual",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": "Infinity"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_atual"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" peso_atual",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": "1e309"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_atual"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" peso_atual",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": "invalid"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_atual"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} peso_atual",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": {}
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_atual"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true peso_atual",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": true
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "peso_atual"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum peso_atual",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": 27
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "peso_atual"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum peso_atual",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "peso_atual": 308
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "peso_atual"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" ig_sem",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "ig_sem": "NaN"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "ig_sem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" ig_sem",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "ig_sem": "Infinity"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "ig_sem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" ig_sem",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "ig_sem": "1e309"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "ig_sem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" ig_sem",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "ig_sem": "invalid"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "ig_sem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} ig_sem",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "ig_sem": {}
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "ig_sem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true ig_sem",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "ig_sem": true
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "ig_sem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum ig_sem",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "ig_sem": 3
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "ig_sem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum ig_sem",
+    "input": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0",
+      "ig_sem": 46.2
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "ig_sem"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]

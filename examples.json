@@ -1,6 +1,14 @@
 [
   {
-    "label": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+    "id": "ganho-de-peso-gestacional",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+    "originalInput": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "0"
+    },
     "input": {
       "peso_pre": 60,
       "altura": 165,
@@ -14,15 +22,39 @@
       },
       "level": "info"
     },
+    "recordedResult": {
+      "main": [
+        "11,5 a 16,0",
+        "kg no total"
+      ],
+      "label": "Ganho de peso recomendado (IOM 2009)",
+      "raw": {
+        "imc": 22.03856749311295,
+        "min": 11.5,
+        "max": 16
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "ganho-de-peso-gestacional",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
     "originalInput": {
       "peso_pre": 60,
       "altura": 165,
-      "gemelar": "0"
+      "gemelar": "0",
+      "peso_atual": 66,
+      "ig_sem": 26
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
     "input": {
       "peso_pre": 60,
       "altura": 165,
@@ -38,17 +70,42 @@
       },
       "level": "low"
     },
+    "recordedResult": {
+      "main": [
+        "11,5 a 16,0",
+        "kg no total"
+      ],
+      "label": "Ganho de peso recomendado (IOM 2009)",
+      "raw": {
+        "imc": 22.03856749311295,
+        "min": 11.5,
+        "max": 16,
+        "ganho": 6,
+        "esp_min": 5.05,
+        "esp_max": 8.5
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "ganho-de-peso-gestacional",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
     "originalInput": {
       "peso_pre": 60,
       "altura": 165,
       "gemelar": "0",
-      "peso_atual": 66,
+      "peso_atual": 72,
       "ig_sem": 26
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
     "input": {
       "peso_pre": 60,
       "altura": 165,
@@ -63,17 +120,40 @@
       "level": "mid",
       "verdict": "acima"
     },
-    "originalInput": {
-      "peso_pre": 60,
-      "altura": 165,
-      "gemelar": "0",
-      "peso_atual": 72,
-      "ig_sem": 26
+    "recordedResult": {
+      "main": [
+        "11,5 a 16,0",
+        "kg no total"
+      ],
+      "label": "Ganho de peso recomendado (IOM 2009)",
+      "raw": {
+        "imc": 22.03856749311295,
+        "min": 11.5,
+        "max": 16,
+        "ganho": 12,
+        "esp_min": 5.05,
+        "esp_max": 8.5
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+    "id": "ganho-de-peso-gestacional",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+    "originalInput": {
+      "peso_pre": 95,
+      "altura": 160,
+      "gemelar": "0"
+    },
     "input": {
       "peso_pre": 95,
       "altura": 160,
@@ -86,15 +166,37 @@
         "max": 9
       }
     },
-    "originalInput": {
-      "peso_pre": 95,
-      "altura": 160,
-      "gemelar": "0"
+    "recordedResult": {
+      "main": [
+        "5,0 a 9,0",
+        "kg no total"
+      ],
+      "label": "Ganho de peso recomendado (IOM 2009)",
+      "raw": {
+        "imc": 37.10937499999999,
+        "min": 5,
+        "max": 9
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+    "id": "ganho-de-peso-gestacional",
+    "kind": "native-source-reference",
+    "index": 4,
+    "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+    "originalInput": {
+      "peso_pre": 45,
+      "altura": 165,
+      "gemelar": "0"
+    },
     "input": {
       "peso_pre": 45,
       "altura": 165,
@@ -107,15 +209,37 @@
         "max": 18
       }
     },
-    "originalInput": {
-      "peso_pre": 45,
-      "altura": 165,
-      "gemelar": "0"
+    "recordedResult": {
+      "main": [
+        "12,5 a 18,0",
+        "kg no total"
+      ],
+      "label": "Ganho de peso recomendado (IOM 2009)",
+      "raw": {
+        "imc": 16.528925619834713,
+        "min": 12.5,
+        "max": 18
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+    "id": "ganho-de-peso-gestacional",
+    "kind": "native-source-reference",
+    "index": 5,
+    "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+    "originalInput": {
+      "peso_pre": 60,
+      "altura": 165,
+      "gemelar": "1"
+    },
     "input": {
       "peso_pre": 60,
       "altura": 165,
@@ -127,11 +251,25 @@
         "max": 25
       }
     },
-    "originalInput": {
-      "peso_pre": 60,
-      "altura": 165,
-      "gemelar": "1"
+    "recordedResult": {
+      "main": [
+        "17,0 a 25,0",
+        "kg no total"
+      ],
+      "label": "Ganho de peso recomendado (IOM 2009) · gemelar",
+      "raw": {
+        "imc": 22.03856749311295,
+        "min": 17,
+        "max": 25
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

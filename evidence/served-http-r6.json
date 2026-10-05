@@ -1,0 +1,1468 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "ganho-de-peso-gestacional",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/ganho-de-peso-gestacional/calculator.js",
+    "sha256": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f",
+    "bytes": 9023
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 6,
+    "replayed": 6,
+    "passed": 6,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "ganho-de-peso-gestacional",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+      "originalInput": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "0"
+      },
+      "input": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "imc": 22.04,
+          "min": 11.5,
+          "max": 16
+        },
+        "level": "info"
+      },
+      "recordedResult": {
+        "main": [
+          "11,5 a 16,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009)",
+        "raw": {
+          "imc": 22.03856749311295,
+          "min": 11.5,
+          "max": 16
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "peso_pre": 60,
+            "altura": 165,
+            "gemelar": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+          "startedAt": "2026-10-05T17:38:12.132Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "ganho-de-peso-gestacional",
+              "main": [
+                "11,5 a 16,0",
+                "kg no total"
+              ],
+              "label": "Ganho de peso recomendado (IOM 2009)",
+              "raw": {
+                "imc": 22.03856749311295,
+                "min": 11.5,
+                "max": 16
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "0f1439e491782e2b5052242527a152e09046aaf3e828d1b504c73cca315b11bc",
+          "bytes": 218,
+          "elapsedMs": 6.3663999999989755
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "startedAt": "2026-10-05T17:38:12.132Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "ganho-de-peso-gestacional",
+            "main": [
+              "11,5 a 16,0",
+              "kg no total"
+            ],
+            "label": "Ganho de peso recomendado (IOM 2009)",
+            "raw": {
+              "imc": 22.03856749311295,
+              "min": 11.5,
+              "max": 16
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "0f1439e491782e2b5052242527a152e09046aaf3e828d1b504c73cca315b11bc",
+        "bytes": 218,
+        "elapsedMs": 6.3663999999989755
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.imc",
+            "expected": 22.04,
+            "obtained": 22.03856749311295,
+            "tolerance": 0.00500001,
+            "difference": 0.001432506887049101,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.min",
+            "expected": 11.5,
+            "obtained": 11.5,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.max",
+            "expected": 16,
+            "obtained": 16,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.imc",
+            "expected": 22.03856749311295,
+            "obtained": 22.03856749311295,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.min",
+            "expected": 11.5,
+            "obtained": 11.5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.max",
+            "expected": 16,
+            "obtained": 16,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "11,5 a 16,0",
+            "obtained": "11,5 a 16,0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "kg no total",
+            "obtained": "kg no total",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "ganho-de-peso-gestacional",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+      "originalInput": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "0",
+        "peso_atual": 66,
+        "ig_sem": 26
+      },
+      "input": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "0",
+        "peso_atual": 66,
+        "ig_sem": 26
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "ganho": 6,
+          "esp_min": 5.05,
+          "esp_max": 8.5
+        },
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "11,5 a 16,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009)",
+        "raw": {
+          "imc": 22.03856749311295,
+          "min": 11.5,
+          "max": 16,
+          "ganho": 6,
+          "esp_min": 5.05,
+          "esp_max": 8.5
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "peso_pre": 60,
+            "altura": 165,
+            "gemelar": "0",
+            "peso_atual": 66,
+            "ig_sem": 26
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+          "startedAt": "2026-10-05T17:38:12.447Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "ganho-de-peso-gestacional",
+              "main": [
+                "11,5 a 16,0",
+                "kg no total"
+              ],
+              "label": "Ganho de peso recomendado (IOM 2009)",
+              "raw": {
+                "imc": 22.03856749311295,
+                "min": 11.5,
+                "max": 16,
+                "ganho": 6,
+                "esp_min": 5.05,
+                "esp_max": 8.5
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "d6364612ddd259cce0284b78be36b4b75ec6faadb3549bc14de0b83311f6328f",
+          "bytes": 257,
+          "elapsedMs": 4.771899999992456
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "startedAt": "2026-10-05T17:38:12.447Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "ganho-de-peso-gestacional",
+            "main": [
+              "11,5 a 16,0",
+              "kg no total"
+            ],
+            "label": "Ganho de peso recomendado (IOM 2009)",
+            "raw": {
+              "imc": 22.03856749311295,
+              "min": 11.5,
+              "max": 16,
+              "ganho": 6,
+              "esp_min": 5.05,
+              "esp_max": 8.5
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "d6364612ddd259cce0284b78be36b4b75ec6faadb3549bc14de0b83311f6328f",
+        "bytes": 257,
+        "elapsedMs": 4.771899999992456
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.ganho",
+            "expected": 6,
+            "obtained": 6,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.esp_min",
+            "expected": 5.05,
+            "obtained": 5.05,
+            "tolerance": 0.00500001,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.esp_max",
+            "expected": 8.5,
+            "obtained": 8.5,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.imc",
+            "expected": 22.03856749311295,
+            "obtained": 22.03856749311295,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.min",
+            "expected": 11.5,
+            "obtained": 11.5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.max",
+            "expected": 16,
+            "obtained": 16,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.ganho",
+            "expected": 6,
+            "obtained": 6,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.esp_min",
+            "expected": 5.05,
+            "obtained": 5.05,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.esp_max",
+            "expected": 8.5,
+            "obtained": 8.5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "11,5 a 16,0",
+            "obtained": "11,5 a 16,0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "kg no total",
+            "obtained": "kg no total",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "ganho-de-peso-gestacional",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+      "originalInput": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "0",
+        "peso_atual": 72,
+        "ig_sem": 26
+      },
+      "input": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "0",
+        "peso_atual": 72,
+        "ig_sem": 26
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "ganho": 12
+        },
+        "level": "mid",
+        "verdict": "acima"
+      },
+      "recordedResult": {
+        "main": [
+          "11,5 a 16,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009)",
+        "raw": {
+          "imc": 22.03856749311295,
+          "min": 11.5,
+          "max": 16,
+          "ganho": 12,
+          "esp_min": 5.05,
+          "esp_max": 8.5
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "peso_pre": 60,
+            "altura": 165,
+            "gemelar": "0",
+            "peso_atual": 72,
+            "ig_sem": 26
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+          "startedAt": "2026-10-05T17:38:12.762Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "ganho-de-peso-gestacional",
+              "main": [
+                "11,5 a 16,0",
+                "kg no total"
+              ],
+              "label": "Ganho de peso recomendado (IOM 2009)",
+              "raw": {
+                "imc": 22.03856749311295,
+                "min": 11.5,
+                "max": 16,
+                "ganho": 12,
+                "esp_min": 5.05,
+                "esp_max": 8.5
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "d10d93449dcd9e57f0ba7537a50ecd7759f03e2960e1a63aa5126c13d411618d",
+          "bytes": 258,
+          "elapsedMs": 4.956100000010338
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "startedAt": "2026-10-05T17:38:12.762Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "ganho-de-peso-gestacional",
+            "main": [
+              "11,5 a 16,0",
+              "kg no total"
+            ],
+            "label": "Ganho de peso recomendado (IOM 2009)",
+            "raw": {
+              "imc": 22.03856749311295,
+              "min": 11.5,
+              "max": 16,
+              "ganho": 12,
+              "esp_min": 5.05,
+              "esp_max": 8.5
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "d10d93449dcd9e57f0ba7537a50ecd7759f03e2960e1a63aa5126c13d411618d",
+        "bytes": 258,
+        "elapsedMs": 4.956100000010338
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.ganho",
+            "expected": 12,
+            "obtained": 12,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.imc",
+            "expected": 22.03856749311295,
+            "obtained": 22.03856749311295,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.min",
+            "expected": 11.5,
+            "obtained": 11.5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.max",
+            "expected": 16,
+            "obtained": 16,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.ganho",
+            "expected": 12,
+            "obtained": 12,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.esp_min",
+            "expected": 5.05,
+            "obtained": 5.05,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.esp_max",
+            "expected": 8.5,
+            "obtained": 8.5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "11,5 a 16,0",
+            "obtained": "11,5 a 16,0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "kg no total",
+            "obtained": "kg no total",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "ganho-de-peso-gestacional",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+      "originalInput": {
+        "peso_pre": 95,
+        "altura": 160,
+        "gemelar": "0"
+      },
+      "input": {
+        "peso_pre": 95,
+        "altura": 160,
+        "gemelar": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "imc": 37.11,
+          "min": 5,
+          "max": 9
+        }
+      },
+      "recordedResult": {
+        "main": [
+          "5,0 a 9,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009)",
+        "raw": {
+          "imc": 37.10937499999999,
+          "min": 5,
+          "max": 9
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "peso_pre": 95,
+            "altura": 160,
+            "gemelar": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+          "startedAt": "2026-10-05T17:38:13.074Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "ganho-de-peso-gestacional",
+              "main": [
+                "5,0 a 9,0",
+                "kg no total"
+              ],
+              "label": "Ganho de peso recomendado (IOM 2009)",
+              "raw": {
+                "imc": 37.10937499999999,
+                "min": 5,
+                "max": 9
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "92ba4f5136045ebec993ca081b5a8e81b37715fa24450a83eb73d06e0ec6f4c1",
+          "bytes": 212,
+          "elapsedMs": 6.403900000004796
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "startedAt": "2026-10-05T17:38:13.074Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "ganho-de-peso-gestacional",
+            "main": [
+              "5,0 a 9,0",
+              "kg no total"
+            ],
+            "label": "Ganho de peso recomendado (IOM 2009)",
+            "raw": {
+              "imc": 37.10937499999999,
+              "min": 5,
+              "max": 9
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "92ba4f5136045ebec993ca081b5a8e81b37715fa24450a83eb73d06e0ec6f4c1",
+        "bytes": 212,
+        "elapsedMs": 6.403900000004796
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.imc",
+            "expected": 37.11,
+            "obtained": 37.10937499999999,
+            "tolerance": 0.00500001,
+            "difference": 0.000625000000006537,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.min",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.max",
+            "expected": 9,
+            "obtained": 9,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.imc",
+            "expected": 37.10937499999999,
+            "obtained": 37.10937499999999,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.min",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.max",
+            "expected": 9,
+            "obtained": 9,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "5,0 a 9,0",
+            "obtained": "5,0 a 9,0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "kg no total",
+            "obtained": "kg no total",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": []
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "ganho-de-peso-gestacional",
+      "kind": "native-source-reference",
+      "index": 4,
+      "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+      "originalInput": {
+        "peso_pre": 45,
+        "altura": 165,
+        "gemelar": "0"
+      },
+      "input": {
+        "peso_pre": 45,
+        "altura": 165,
+        "gemelar": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "imc": 16.53,
+          "min": 12.5,
+          "max": 18
+        }
+      },
+      "recordedResult": {
+        "main": [
+          "12,5 a 18,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009)",
+        "raw": {
+          "imc": 16.528925619834713,
+          "min": 12.5,
+          "max": 18
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "peso_pre": 45,
+            "altura": 165,
+            "gemelar": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+          "startedAt": "2026-10-05T17:38:13.387Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "ganho-de-peso-gestacional",
+              "main": [
+                "12,5 a 18,0",
+                "kg no total"
+              ],
+              "label": "Ganho de peso recomendado (IOM 2009)",
+              "raw": {
+                "imc": 16.528925619834713,
+                "min": 12.5,
+                "max": 18
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "e48addaa5360c4fe765d137bf105d7be82f1142438f7778a9d119fe90c3c3bf8",
+          "bytes": 219,
+          "elapsedMs": 6.166200000006938
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "startedAt": "2026-10-05T17:38:13.387Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "ganho-de-peso-gestacional",
+            "main": [
+              "12,5 a 18,0",
+              "kg no total"
+            ],
+            "label": "Ganho de peso recomendado (IOM 2009)",
+            "raw": {
+              "imc": 16.528925619834713,
+              "min": 12.5,
+              "max": 18
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "e48addaa5360c4fe765d137bf105d7be82f1142438f7778a9d119fe90c3c3bf8",
+        "bytes": 219,
+        "elapsedMs": 6.166200000006938
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.imc",
+            "expected": 16.53,
+            "obtained": 16.528925619834713,
+            "tolerance": 0.00500001,
+            "difference": 0.001074380165288602,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.min",
+            "expected": 12.5,
+            "obtained": 12.5,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.max",
+            "expected": 18,
+            "obtained": 18,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.imc",
+            "expected": 16.528925619834713,
+            "obtained": 16.528925619834713,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.min",
+            "expected": 12.5,
+            "obtained": 12.5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.max",
+            "expected": 18,
+            "obtained": 18,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "12,5 a 18,0",
+            "obtained": "12,5 a 18,0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "kg no total",
+            "obtained": "kg no total",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": []
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "ganho-de-peso-gestacional",
+      "kind": "native-source-reference",
+      "index": 5,
+      "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+      "originalInput": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "1"
+      },
+      "input": {
+        "peso_pre": 60,
+        "altura": 165,
+        "gemelar": "1"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "min": 17,
+          "max": 25
+        }
+      },
+      "recordedResult": {
+        "main": [
+          "17,0 a 25,0",
+          "kg no total"
+        ],
+        "label": "Ganho de peso recomendado (IOM 2009) · gemelar",
+        "raw": {
+          "imc": 22.03856749311295,
+          "min": 17,
+          "max": 25
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "peso_pre": 60,
+            "altura": 165,
+            "gemelar": "1"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+          "startedAt": "2026-10-05T17:38:13.699Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "ganho-de-peso-gestacional",
+              "main": [
+                "17,0 a 25,0",
+                "kg no total"
+              ],
+              "label": "Ganho de peso recomendado (IOM 2009) · gemelar",
+              "raw": {
+                "imc": 22.03856749311295,
+                "min": 17,
+                "max": 25
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "4a9e85ab6652e05fd3a5e77519d35126b4527806c41268c0fcac53305bab2451",
+          "bytes": 227,
+          "elapsedMs": 3.0199999999895226
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/ganho-de-peso-gestacional/calculate",
+        "startedAt": "2026-10-05T17:38:13.699Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "ganho-de-peso-gestacional",
+            "main": [
+              "17,0 a 25,0",
+              "kg no total"
+            ],
+            "label": "Ganho de peso recomendado (IOM 2009) · gemelar",
+            "raw": {
+              "imc": 22.03856749311295,
+              "min": 17,
+              "max": 25
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "4a9e85ab6652e05fd3a5e77519d35126b4527806c41268c0fcac53305bab2451",
+        "bytes": 227,
+        "elapsedMs": 3.0199999999895226
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.min",
+            "expected": 17,
+            "obtained": 17,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.max",
+            "expected": 25,
+            "obtained": 25,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.imc",
+            "expected": 22.03856749311295,
+            "obtained": 22.03856749311295,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.min",
+            "expected": 17,
+            "obtained": 17,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.max",
+            "expected": 25,
+            "obtained": 25,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "17,0 a 25,0",
+            "obtained": "17,0 a 25,0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "kg no total",
+            "obtained": "kg no total",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": []
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}

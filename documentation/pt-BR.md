@@ -90,3 +90,72 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Ganho total recomendado: 11,5 a 16,0 kg
+
+| Detalhes do resultado | |
+| --- | --- |
+| IMC pré-gestacional | 22,0 kg/m² · eutrofia (18,5 ≤ IMC < 25) |
+| Ritmo no 2º e 3º trimestres | 0,35 a 0,50 kg/semana |
+
+
+### 2
+
+Ganho total recomendado: 11,5 a 16,0 kg · ganho atual dentro do esperado
+
+| Detalhes do resultado | |
+| --- | --- |
+| IMC pré-gestacional | 22,0 kg/m² · eutrofia (18,5 ≤ IMC < 25) |
+| Ritmo no 2º e 3º trimestres | 0,35 a 0,50 kg/semana |
+| Ganho até agora | 6,0 kg em 26 semanas |
+| Faixa esperada nesta idade gestacional | 5,1 a 8,5 kg |
+
+
+### 3
+
+Ganho total recomendado: 11,5 a 16,0 kg · ganho atual acima do esperado
+
+| Detalhes do resultado | |
+| --- | --- |
+| IMC pré-gestacional | 22,0 kg/m² · eutrofia (18,5 ≤ IMC < 25) |
+| Ritmo no 2º e 3º trimestres | 0,35 a 0,50 kg/semana |
+| Ganho até agora | 12,0 kg em 26 semanas |
+| Faixa esperada nesta idade gestacional | 5,1 a 8,5 kg |
+
+Ganho acima do esperado para a idade gestacional: reavalie dieta, atividade física e edema (pré-eclâmpsia).
+
+
+### 4
+
+Ganho total recomendado: 5,0 a 9,0 kg
+
+| Detalhes do resultado | |
+| --- | --- |
+| IMC pré-gestacional | 37,1 kg/m² · obesidade (IMC ≥ 30) |
+| Ritmo no 2º e 3º trimestres | 0,17 a 0,27 kg/semana |
+
+
+### 5
+
+Ganho total recomendado: 12,5 a 18,0 kg
+
+| Detalhes do resultado | |
+| --- | --- |
+| IMC pré-gestacional | 16,5 kg/m² · baixo peso (IMC < 18,5) |
+| Ritmo no 2º e 3º trimestres | 0,44 a 0,58 kg/semana |
+
+
+### 6
+
+Ganho total recomendado: 17,0 a 25,0 kg
+
+| Detalhes do resultado | |
+| --- | --- |
+| IMC pré-gestacional | 22,0 kg/m² · eutrofia (18,5 ≤ IMC < 25) |
+

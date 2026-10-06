@@ -1,0 +1,3509 @@
+{
+  "id": "ganho-de-peso-gestacional",
+  "implementationVersion": "ganho-de-peso-gestacional@native-2026-10-05+39aaf0b2ff8a",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pré-gestacional",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "22,0 kg/m² · eutrofia (18,5 ≤ IMC < 25)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo no 2º e 3º trimestres",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,35 a 0,50 kg/semana",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Ganho total recomendado: 11,5 a 16,0 kg",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pré-gestacional",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "22,0 kg/m² · eutrofia (18,5 ≤ IMC < 25)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo no 2º e 3º trimestres",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,35 a 0,50 kg/semana",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Ganho até agora",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "6,0 kg em 26 semanas",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Faixa esperada nesta idade gestacional",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "5,1 a 8,5 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Ganho total recomendado: 11,5 a 16,0 kg · ganho atual dentro do esperado",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pré-gestacional",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "22,0 kg/m² · eutrofia (18,5 ≤ IMC < 25)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo no 2º e 3º trimestres",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,35 a 0,50 kg/semana",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Ganho até agora",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "12,0 kg em 26 semanas",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Faixa esperada nesta idade gestacional",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "5,1 a 8,5 kg",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Ganho total recomendado: 11,5 a 16,0 kg · ganho atual acima do esperado",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Ganho acima do esperado para a idade gestacional: reavalie dieta, atividade física e edema (pré-eclâmpsia).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pré-gestacional",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "37,1 kg/m² · obesidade (IMC ≥ 30)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo no 2º e 3º trimestres",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,17 a 0,27 kg/semana",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Ganho total recomendado: 5,0 a 9,0 kg",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pré-gestacional",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "16,5 kg/m² · baixo peso (IMC < 18,5)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo no 2º e 3º trimestres",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,44 a 0,58 kg/semana",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Ganho total recomendado: 12,5 a 18,0 kg",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pré-gestacional",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "22,0 kg/m² · eutrofia (18,5 ≤ IMC < 25)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Ganho total recomendado: 17,0 a 25,0 kg",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Prepregnancy BMI",
+                "locale": "en",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · normal weight (18,5 ≤ BMI < 25)",
+                "locale": "en",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rate in the 2nd and 3rd trimesters",
+                "locale": "en",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35 to 0.50 kg/week",
+                "locale": "en",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Recommended total gain: 11.5 to 16.0 kg",
+            "locale": "en",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Prepregnancy BMI",
+                "locale": "en",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · normal weight (18,5 ≤ BMI < 25)",
+                "locale": "en",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rate in the 2nd and 3rd trimesters",
+                "locale": "en",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35 to 0.50 kg/week",
+                "locale": "en",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Gain so far",
+                "locale": "en",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "6.0 kg in 26 weeks",
+                "locale": "en",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  6,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Expected range at this gestational age",
+                "locale": "en",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5.1 to 8.5 kg",
+                "locale": "en",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Recommended total gain: 11.5 to 16.0 kg · current gain within expected range",
+            "locale": "en",
+            "template": "documented-authored-5689121b53d5e091e0c7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Prepregnancy BMI",
+                "locale": "en",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · normal weight (18,5 ≤ BMI < 25)",
+                "locale": "en",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rate in the 2nd and 3rd trimesters",
+                "locale": "en",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35 to 0.50 kg/week",
+                "locale": "en",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Gain so far",
+                "locale": "en",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "12.0 kg in 26 weeks",
+                "locale": "en",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  12,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Expected range at this gestational age",
+                "locale": "en",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5.1 to 8.5 kg",
+                "locale": "en",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Recommended total gain: 11.5 to 16.0 kg · current gain above expected",
+            "locale": "en",
+            "template": "documented-authored-810f29e5650e39fd2037",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "note": {
+            "text": "Gain above expected for gestational age: reassess diet, physical activity and edema (pre-eclampsia).",
+            "locale": "en",
+            "template": "documented-authored-dbf86973b37c2f40b6cc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Prepregnancy BMI",
+                "locale": "en",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "37.1 kg/m² · obesity (BMI ≥ 30)",
+                "locale": "en",
+                "template": "documented-authored-fa8d7349de81797ccda8",
+                "sourceNumbers": [
+                  37.1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rate in the 2nd and 3rd trimesters",
+                "locale": "en",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.17 to 0.27 kg/week",
+                "locale": "en",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.17,
+                  0.27
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Recommended total gain: 5.0 to 9.0 kg",
+            "locale": "en",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              5,
+              9
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Prepregnancy BMI",
+                "locale": "en",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "16.5 kg/m² · underweight (BMI < 18,5)",
+                "locale": "en",
+                "template": "documented-authored-c915183f5e3a60d7e670",
+                "sourceNumbers": [
+                  16.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rate in the 2nd and 3rd trimesters",
+                "locale": "en",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.44 to 0.58 kg/week",
+                "locale": "en",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.44,
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Recommended total gain: 12.5 to 18.0 kg",
+            "locale": "en",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              12.5,
+              18
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Prepregnancy BMI",
+                "locale": "en",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · normal weight (18,5 ≤ BMI < 25)",
+                "locale": "en",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Recommended total gain: 17.0 to 25.0 kg",
+            "locale": "en",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              17,
+              25
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC previo al embarazo",
+                "locale": "es",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · normopeso (18,5 ≤ IMC < 25)",
+                "locale": "es",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo en el 2.º y 3.º trimestre",
+                "locale": "es",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 a 0,50 kg/semana",
+                "locale": "es",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento total recomendado: 11,5 a 16,0 kg",
+            "locale": "es",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC previo al embarazo",
+                "locale": "es",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · normopeso (18,5 ≤ IMC < 25)",
+                "locale": "es",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo en el 2.º y 3.º trimestre",
+                "locale": "es",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 a 0,50 kg/semana",
+                "locale": "es",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Aumento hasta ahora",
+                "locale": "es",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "6,0 kg en 26 semanas",
+                "locale": "es",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  6,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Rango esperado en esta edad gestacional",
+                "locale": "es",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5,1 a 8,5 kg",
+                "locale": "es",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento total recomendado: 11,5 a 16,0 kg · aumento actual dentro de lo esperado",
+            "locale": "es",
+            "template": "documented-authored-5689121b53d5e091e0c7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC previo al embarazo",
+                "locale": "es",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · normopeso (18,5 ≤ IMC < 25)",
+                "locale": "es",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo en el 2.º y 3.º trimestre",
+                "locale": "es",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 a 0,50 kg/semana",
+                "locale": "es",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Aumento hasta ahora",
+                "locale": "es",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "12,0 kg en 26 semanas",
+                "locale": "es",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  12,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Rango esperado en esta edad gestacional",
+                "locale": "es",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5,1 a 8,5 kg",
+                "locale": "es",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento total recomendado: 11,5 a 16,0 kg · aumento actual por encima de lo esperado",
+            "locale": "es",
+            "template": "documented-authored-810f29e5650e39fd2037",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "note": {
+            "text": "Aumento por encima de lo esperado para la edad gestacional: reevaluar dieta, actividad física y edema (preeclampsia).",
+            "locale": "es",
+            "template": "documented-authored-dbf86973b37c2f40b6cc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC previo al embarazo",
+                "locale": "es",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "37,1 kg/m² · obesidad (IMC ≥ 30)",
+                "locale": "es",
+                "template": "documented-authored-fa8d7349de81797ccda8",
+                "sourceNumbers": [
+                  37.1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo en el 2.º y 3.º trimestre",
+                "locale": "es",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,17 a 0,27 kg/semana",
+                "locale": "es",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.17,
+                  0.27
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento total recomendado: 5,0 a 9,0 kg",
+            "locale": "es",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              5,
+              9
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC previo al embarazo",
+                "locale": "es",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "16,5 kg/m² · bajo peso (IMC < 18,5)",
+                "locale": "es",
+                "template": "documented-authored-c915183f5e3a60d7e670",
+                "sourceNumbers": [
+                  16.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo en el 2.º y 3.º trimestre",
+                "locale": "es",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,44 a 0,58 kg/semana",
+                "locale": "es",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.44,
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento total recomendado: 12,5 a 18,0 kg",
+            "locale": "es",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              12.5,
+              18
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC previo al embarazo",
+                "locale": "es",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · normopeso (18,5 ≤ IMC < 25)",
+                "locale": "es",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento total recomendado: 17,0 a 25,0 kg",
+            "locale": "es",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              17,
+              25
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC avant la grossesse",
+                "locale": "fr",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · corpulence normale (18,5 ≤ IMC < 25)",
+                "locale": "fr",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rythme au 2e et au 3e trimestres",
+                "locale": "fr",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 à 0,50 kg/semaine",
+                "locale": "fr",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gain total recommandé : 11,5 à 16,0 kg",
+            "locale": "fr",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC avant la grossesse",
+                "locale": "fr",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · corpulence normale (18,5 ≤ IMC < 25)",
+                "locale": "fr",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rythme au 2e et au 3e trimestres",
+                "locale": "fr",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 à 0,50 kg/semaine",
+                "locale": "fr",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Gain jusqu’à présent",
+                "locale": "fr",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "6,0 kg en 26 semaines",
+                "locale": "fr",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  6,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Fourchette attendue à cet âge gestationnel",
+                "locale": "fr",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5,1 à 8,5 kg",
+                "locale": "fr",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gain total recommandé : 11,5 à 16,0 kg · gain actuel dans la fourchette attendue",
+            "locale": "fr",
+            "template": "documented-authored-5689121b53d5e091e0c7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC avant la grossesse",
+                "locale": "fr",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · corpulence normale (18,5 ≤ IMC < 25)",
+                "locale": "fr",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rythme au 2e et au 3e trimestres",
+                "locale": "fr",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 à 0,50 kg/semaine",
+                "locale": "fr",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Gain jusqu’à présent",
+                "locale": "fr",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "12,0 kg en 26 semaines",
+                "locale": "fr",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  12,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Fourchette attendue à cet âge gestationnel",
+                "locale": "fr",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5,1 à 8,5 kg",
+                "locale": "fr",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gain total recommandé : 11,5 à 16,0 kg · gain actuel au-dessus de l’attendu",
+            "locale": "fr",
+            "template": "documented-authored-810f29e5650e39fd2037",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "note": {
+            "text": "Gain supérieur à l’attendu pour l’âge gestationnel : réévaluer l’alimentation, l’activité physique et l’œdème (prééclampsie).",
+            "locale": "fr",
+            "template": "documented-authored-dbf86973b37c2f40b6cc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC avant la grossesse",
+                "locale": "fr",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "37,1 kg/m² · obésité (IMC ≥ 30)",
+                "locale": "fr",
+                "template": "documented-authored-fa8d7349de81797ccda8",
+                "sourceNumbers": [
+                  37.1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rythme au 2e et au 3e trimestres",
+                "locale": "fr",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,17 à 0,27 kg/semaine",
+                "locale": "fr",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.17,
+                  0.27
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gain total recommandé : 5,0 à 9,0 kg",
+            "locale": "fr",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              5,
+              9
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC avant la grossesse",
+                "locale": "fr",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "16,5 kg/m² · insuffisance pondérale (IMC < 18,5)",
+                "locale": "fr",
+                "template": "documented-authored-c915183f5e3a60d7e670",
+                "sourceNumbers": [
+                  16.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rythme au 2e et au 3e trimestres",
+                "locale": "fr",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,44 à 0,58 kg/semaine",
+                "locale": "fr",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.44,
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gain total recommandé : 12,5 à 18,0 kg",
+            "locale": "fr",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              12.5,
+              18
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC avant la grossesse",
+                "locale": "fr",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · corpulence normale (18,5 ≤ IMC < 25)",
+                "locale": "fr",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gain total recommandé : 17,0 à 25,0 kg",
+            "locale": "fr",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              17,
+              25
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "BMI vor der Schwangerschaft",
+                "locale": "de",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · Normalgewicht (18,5 ≤ BMI < 25)",
+                "locale": "de",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rate im 2. und 3. Trimenon",
+                "locale": "de",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 bis 0,50 kg/Woche",
+                "locale": "de",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Empfohlene Gesamtzunahme: 11,5 bis 16,0 kg",
+            "locale": "de",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "BMI vor der Schwangerschaft",
+                "locale": "de",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · Normalgewicht (18,5 ≤ BMI < 25)",
+                "locale": "de",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rate im 2. und 3. Trimenon",
+                "locale": "de",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 bis 0,50 kg/Woche",
+                "locale": "de",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Bisherige Zunahme",
+                "locale": "de",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "6,0 kg in 26 Wochen",
+                "locale": "de",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  6,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Erwarteter Bereich in diesem Gestationsalter",
+                "locale": "de",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5,1 bis 8,5 kg",
+                "locale": "de",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Empfohlene Gesamtzunahme: 11,5 bis 16,0 kg · aktuelle Zunahme im erwarteten Bereich",
+            "locale": "de",
+            "template": "documented-authored-5689121b53d5e091e0c7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "BMI vor der Schwangerschaft",
+                "locale": "de",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · Normalgewicht (18,5 ≤ BMI < 25)",
+                "locale": "de",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rate im 2. und 3. Trimenon",
+                "locale": "de",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 bis 0,50 kg/Woche",
+                "locale": "de",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Bisherige Zunahme",
+                "locale": "de",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "12,0 kg in 26 Wochen",
+                "locale": "de",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  12,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Erwarteter Bereich in diesem Gestationsalter",
+                "locale": "de",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5,1 bis 8,5 kg",
+                "locale": "de",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Empfohlene Gesamtzunahme: 11,5 bis 16,0 kg · aktuelle Zunahme über dem Erwarteten",
+            "locale": "de",
+            "template": "documented-authored-810f29e5650e39fd2037",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "note": {
+            "text": "Für das Gestationsalter übermäßige Zunahme: Ernährung, körperliche Aktivität und Ödeme (Präeklampsie) erneut beurteilen.",
+            "locale": "de",
+            "template": "documented-authored-dbf86973b37c2f40b6cc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "BMI vor der Schwangerschaft",
+                "locale": "de",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "37,1 kg/m² · Adipositas (BMI ≥ 30)",
+                "locale": "de",
+                "template": "documented-authored-fa8d7349de81797ccda8",
+                "sourceNumbers": [
+                  37.1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rate im 2. und 3. Trimenon",
+                "locale": "de",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,17 bis 0,27 kg/Woche",
+                "locale": "de",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.17,
+                  0.27
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Empfohlene Gesamtzunahme: 5,0 bis 9,0 kg",
+            "locale": "de",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              5,
+              9
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "BMI vor der Schwangerschaft",
+                "locale": "de",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "16,5 kg/m² · Untergewicht (BMI < 18,5)",
+                "locale": "de",
+                "template": "documented-authored-c915183f5e3a60d7e670",
+                "sourceNumbers": [
+                  16.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Rate im 2. und 3. Trimenon",
+                "locale": "de",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,44 bis 0,58 kg/Woche",
+                "locale": "de",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.44,
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Empfohlene Gesamtzunahme: 12,5 bis 18,0 kg",
+            "locale": "de",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              12.5,
+              18
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "BMI vor der Schwangerschaft",
+                "locale": "de",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · Normalgewicht (18,5 ≤ BMI < 25)",
+                "locale": "de",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Empfohlene Gesamtzunahme: 17,0 bis 25,0 kg",
+            "locale": "de",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              17,
+              25
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pregravidico",
+                "locale": "it",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · normopeso (18,5 ≤ BMI < 25)",
+                "locale": "it",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo nel 2° e 3° trimestre",
+                "locale": "it",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 a 0,50 kg/settimana",
+                "locale": "it",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento totale raccomandato: 11,5 a 16,0 kg",
+            "locale": "it",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pregravidico",
+                "locale": "it",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · normopeso (18,5 ≤ BMI < 25)",
+                "locale": "it",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo nel 2° e 3° trimestre",
+                "locale": "it",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 a 0,50 kg/settimana",
+                "locale": "it",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Aumento finora",
+                "locale": "it",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "6,0 kg in 26 settimane",
+                "locale": "it",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  6,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Intervallo atteso a questa età gestazionale",
+                "locale": "it",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5,1 a 8,5 kg",
+                "locale": "it",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento totale raccomandato: 11,5 a 16,0 kg · aumento attuale entro l’atteso",
+            "locale": "it",
+            "template": "documented-authored-5689121b53d5e091e0c7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pregravidico",
+                "locale": "it",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · normopeso (18,5 ≤ BMI < 25)",
+                "locale": "it",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo nel 2° e 3° trimestre",
+                "locale": "it",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,35 a 0,50 kg/settimana",
+                "locale": "it",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Aumento finora",
+                "locale": "it",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "12,0 kg in 26 settimane",
+                "locale": "it",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  12,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Intervallo atteso a questa età gestazionale",
+                "locale": "it",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5,1 a 8,5 kg",
+                "locale": "it",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento totale raccomandato: 11,5 a 16,0 kg · aumento attuale sopra l’atteso",
+            "locale": "it",
+            "template": "documented-authored-810f29e5650e39fd2037",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "note": {
+            "text": "Aumento superiore all’atteso per l’età gestazionale: rivalutare dieta, attività fisica ed edema (pre-eclampsia).",
+            "locale": "it",
+            "template": "documented-authored-dbf86973b37c2f40b6cc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pregravidico",
+                "locale": "it",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "37,1 kg/m² · obesità (BMI ≥ 30)",
+                "locale": "it",
+                "template": "documented-authored-fa8d7349de81797ccda8",
+                "sourceNumbers": [
+                  37.1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo nel 2° e 3° trimestre",
+                "locale": "it",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,17 a 0,27 kg/settimana",
+                "locale": "it",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.17,
+                  0.27
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento totale raccomandato: 5,0 a 9,0 kg",
+            "locale": "it",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              5,
+              9
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pregravidico",
+                "locale": "it",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "16,5 kg/m² · sottopeso (BMI < 18,5)",
+                "locale": "it",
+                "template": "documented-authored-c915183f5e3a60d7e670",
+                "sourceNumbers": [
+                  16.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Ritmo nel 2° e 3° trimestre",
+                "locale": "it",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0,44 a 0,58 kg/settimana",
+                "locale": "it",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.44,
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento totale raccomandato: 12,5 a 18,0 kg",
+            "locale": "it",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              12.5,
+              18
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "IMC pregravidico",
+                "locale": "it",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22,0 kg/m² · normopeso (18,5 ≤ BMI < 25)",
+                "locale": "it",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Aumento totale raccomandato: 17,0 a 25,0 kg",
+            "locale": "it",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              17,
+              25
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "مؤشر كتلة الجسم قبل الحمل",
+                "locale": "ar",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "٢٢٫٠ kg/m² · وزن طبيعي (18,5 ≤ مؤشر كتلة الجسم < 25)",
+                "locale": "ar",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "المعدل في الثلثين الثاني والثالث",
+                "locale": "ar",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "٠٫٣٥ إلى ٠٫٥٠ كغ/أسبوع",
+                "locale": "ar",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الزيادة الكلية الموصى بها: ١١٫٥ إلى ١٦٫٠ كغ",
+            "locale": "ar",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "مؤشر كتلة الجسم قبل الحمل",
+                "locale": "ar",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "٢٢٫٠ kg/m² · وزن طبيعي (18,5 ≤ مؤشر كتلة الجسم < 25)",
+                "locale": "ar",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "المعدل في الثلثين الثاني والثالث",
+                "locale": "ar",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "٠٫٣٥ إلى ٠٫٥٠ كغ/أسبوع",
+                "locale": "ar",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "الزيادة حتى الآن",
+                "locale": "ar",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "٦٫٠ كغ في ٢٦ أسابيع",
+                "locale": "ar",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  6,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "المدى المتوقع في هذا العمر الحملي",
+                "locale": "ar",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "٥٫١ إلى ٨٫٥ كغ",
+                "locale": "ar",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الزيادة الكلية الموصى بها: ١١٫٥ إلى ١٦٫٠ كغ · الزيادة الحالية ضمن المتوقع",
+            "locale": "ar",
+            "template": "documented-authored-5689121b53d5e091e0c7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "مؤشر كتلة الجسم قبل الحمل",
+                "locale": "ar",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "٢٢٫٠ kg/m² · وزن طبيعي (18,5 ≤ مؤشر كتلة الجسم < 25)",
+                "locale": "ar",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "المعدل في الثلثين الثاني والثالث",
+                "locale": "ar",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "٠٫٣٥ إلى ٠٫٥٠ كغ/أسبوع",
+                "locale": "ar",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "الزيادة حتى الآن",
+                "locale": "ar",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "١٢٫٠ كغ في ٢٦ أسابيع",
+                "locale": "ar",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  12,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "المدى المتوقع في هذا العمر الحملي",
+                "locale": "ar",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "٥٫١ إلى ٨٫٥ كغ",
+                "locale": "ar",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الزيادة الكلية الموصى بها: ١١٫٥ إلى ١٦٫٠ كغ · الزيادة الحالية أعلى من المتوقع",
+            "locale": "ar",
+            "template": "documented-authored-810f29e5650e39fd2037",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "note": {
+            "text": "الزيادة أعلى من المتوقع لعمر الحمل: أعد تقييم النظام الغذائي والنشاط البدني والوذمة (تسمم الحمل).",
+            "locale": "ar",
+            "template": "documented-authored-dbf86973b37c2f40b6cc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "مؤشر كتلة الجسم قبل الحمل",
+                "locale": "ar",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "٣٧٫١ kg/m² · سمنة (BMI ≥ 30)",
+                "locale": "ar",
+                "template": "documented-authored-fa8d7349de81797ccda8",
+                "sourceNumbers": [
+                  37.1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "المعدل في الثلثين الثاني والثالث",
+                "locale": "ar",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "٠٫١٧ إلى ٠٫٢٧ كغ/أسبوع",
+                "locale": "ar",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.17,
+                  0.27
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الزيادة الكلية الموصى بها: ٥٫٠ إلى ٩٫٠ كغ",
+            "locale": "ar",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              5,
+              9
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "مؤشر كتلة الجسم قبل الحمل",
+                "locale": "ar",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "١٦٫٥ kg/m² · نقص وزن (BMI < 18,5)",
+                "locale": "ar",
+                "template": "documented-authored-c915183f5e3a60d7e670",
+                "sourceNumbers": [
+                  16.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "المعدل في الثلثين الثاني والثالث",
+                "locale": "ar",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "٠٫٤٤ إلى ٠٫٥٨ كغ/أسبوع",
+                "locale": "ar",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.44,
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الزيادة الكلية الموصى بها: ١٢٫٥ إلى ١٨٫٠ كغ",
+            "locale": "ar",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              12.5,
+              18
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "مؤشر كتلة الجسم قبل الحمل",
+                "locale": "ar",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "٢٢٫٠ kg/m² · وزن طبيعي (18,5 ≤ مؤشر كتلة الجسم < 25)",
+                "locale": "ar",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الزيادة الكلية الموصى بها: ١٧٫٠ إلى ٢٥٫٠ كغ",
+            "locale": "ar",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              17,
+              25
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "孕前体重指数",
+                "locale": "zh",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · 正常体重（18.5 ≤ BMI < 25）",
+                "locale": "zh",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "第2和第3孕期的增重速率",
+                "locale": "zh",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35 至 0.50 kg/周",
+                "locale": "zh",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "建议总增重：11.5 至 16.0 kg",
+            "locale": "zh",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "孕前体重指数",
+                "locale": "zh",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · 正常体重（18.5 ≤ BMI < 25）",
+                "locale": "zh",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "第2和第3孕期的增重速率",
+                "locale": "zh",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35 至 0.50 kg/周",
+                "locale": "zh",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "迄今增重",
+                "locale": "zh",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "6.0 kg，历时26周",
+                "locale": "zh",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  6,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "该孕周的预期范围",
+                "locale": "zh",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5.1 至 8.5 kg",
+                "locale": "zh",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "建议总增重：11.5 至 16.0 kg · 当前增重在预期范围内",
+            "locale": "zh",
+            "template": "documented-authored-5689121b53d5e091e0c7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "孕前体重指数",
+                "locale": "zh",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · 正常体重（18.5 ≤ BMI < 25）",
+                "locale": "zh",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "第2和第3孕期的增重速率",
+                "locale": "zh",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35 至 0.50 kg/周",
+                "locale": "zh",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "迄今增重",
+                "locale": "zh",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "12.0 kg，历时26周",
+                "locale": "zh",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  12,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "该孕周的预期范围",
+                "locale": "zh",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5.1 至 8.5 kg",
+                "locale": "zh",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "建议总增重：11.5 至 16.0 kg · 当前增重高于预期",
+            "locale": "zh",
+            "template": "documented-authored-810f29e5650e39fd2037",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "note": {
+            "text": "高于该孕周预期的增重：重新评估饮食、体力活动和水肿（子痫前期）。",
+            "locale": "zh",
+            "template": "documented-authored-dbf86973b37c2f40b6cc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "孕前体重指数",
+                "locale": "zh",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "37.1 kg/m² · 肥胖（BMI ≥ 30）",
+                "locale": "zh",
+                "template": "documented-authored-fa8d7349de81797ccda8",
+                "sourceNumbers": [
+                  37.1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "第2和第3孕期的增重速率",
+                "locale": "zh",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.17 至 0.27 kg/周",
+                "locale": "zh",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.17,
+                  0.27
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "建议总增重：5.0 至 9.0 kg",
+            "locale": "zh",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              5,
+              9
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "孕前体重指数",
+                "locale": "zh",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "16.5 kg/m² · 低体重（BMI < 18.5）",
+                "locale": "zh",
+                "template": "documented-authored-c915183f5e3a60d7e670",
+                "sourceNumbers": [
+                  16.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "第2和第3孕期的增重速率",
+                "locale": "zh",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.44 至 0.58 kg/周",
+                "locale": "zh",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.44,
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "建议总增重：12.5 至 18.0 kg",
+            "locale": "zh",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              12.5,
+              18
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "孕前体重指数",
+                "locale": "zh",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · 正常体重（18.5 ≤ BMI < 25）",
+                "locale": "zh",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "建议总增重：17.0 至 25.0 kg",
+            "locale": "zh",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              17,
+              25
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "妊娠前のBMI",
+                "locale": "ja",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · 標準体重（18,5 ≤ BMI < 25）",
+                "locale": "ja",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "妊娠第2・第3トリメスターの増加率",
+                "locale": "ja",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35～0.50 kg/週",
+                "locale": "ja",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "推奨総増加量: 11.5 ～ 16.0 kg",
+            "locale": "ja",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "妊娠前のBMI",
+                "locale": "ja",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · 標準体重（18,5 ≤ BMI < 25）",
+                "locale": "ja",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "妊娠第2・第3トリメスターの増加率",
+                "locale": "ja",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35～0.50 kg/週",
+                "locale": "ja",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "これまでの増加",
+                "locale": "ja",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "6.0 kg / 26週間",
+                "locale": "ja",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  6,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "この妊娠週数での期待範囲",
+                "locale": "ja",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5.1～8.5 kg",
+                "locale": "ja",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "推奨総増加量: 11.5 ～ 16.0 kg · 現在の増加は予想範囲内",
+            "locale": "ja",
+            "template": "documented-authored-5689121b53d5e091e0c7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "妊娠前のBMI",
+                "locale": "ja",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · 標準体重（18,5 ≤ BMI < 25）",
+                "locale": "ja",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "妊娠第2・第3トリメスターの増加率",
+                "locale": "ja",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35～0.50 kg/週",
+                "locale": "ja",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "これまでの増加",
+                "locale": "ja",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "12.0 kg / 26週間",
+                "locale": "ja",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  12,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "この妊娠週数での期待範囲",
+                "locale": "ja",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5.1～8.5 kg",
+                "locale": "ja",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "推奨総増加量: 11.5 ～ 16.0 kg · 現在の増加は予想を上回る",
+            "locale": "ja",
+            "template": "documented-authored-810f29e5650e39fd2037",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "note": {
+            "text": "妊娠週数に対して予想を上回る増加：食事、身体活動、浮腫（子癇前症）を再評価する。",
+            "locale": "ja",
+            "template": "documented-authored-dbf86973b37c2f40b6cc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "妊娠前のBMI",
+                "locale": "ja",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "37.1 kg/m² · 肥満（BMI ≥ 30）",
+                "locale": "ja",
+                "template": "documented-authored-fa8d7349de81797ccda8",
+                "sourceNumbers": [
+                  37.1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "妊娠第2・第3トリメスターの増加率",
+                "locale": "ja",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.17～0.27 kg/週",
+                "locale": "ja",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.17,
+                  0.27
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "推奨総増加量: 5.0 ～ 9.0 kg",
+            "locale": "ja",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              5,
+              9
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "妊娠前のBMI",
+                "locale": "ja",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "16.5 kg/m² · 低体重（BMI < 18,5）",
+                "locale": "ja",
+                "template": "documented-authored-c915183f5e3a60d7e670",
+                "sourceNumbers": [
+                  16.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "妊娠第2・第3トリメスターの増加率",
+                "locale": "ja",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.44～0.58 kg/週",
+                "locale": "ja",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.44,
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "推奨総増加量: 12.5 ～ 18.0 kg",
+            "locale": "ja",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              12.5,
+              18
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "妊娠前のBMI",
+                "locale": "ja",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · 標準体重（18,5 ≤ BMI < 25）",
+                "locale": "ja",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "推奨総増加量: 17.0 ～ 25.0 kg",
+            "locale": "ja",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              17,
+              25
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "60 kg, 165 cm: IMC 22,0 (eutrofia), ganho de 11,5 a 16 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "गर्भावस्था से पहले का BMI",
+                "locale": "hi",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · सामान्य वजन (18,5 ≤ BMI < 25)",
+                "locale": "hi",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "दूसरी और तीसरी तिमाही में दर",
+                "locale": "hi",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35 से 0.50 kg/सप्ताह",
+                "locale": "hi",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अनुशंसित कुल वृद्धि: 11.5 से 16.0 kg",
+            "locale": "hi",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 66 kg com 26 semanas: ganho 6 kg, esperado 5,05 a 8,5 kg (adequado)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "गर्भावस्था से पहले का BMI",
+                "locale": "hi",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · सामान्य वजन (18,5 ≤ BMI < 25)",
+                "locale": "hi",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "दूसरी और तीसरी तिमाही में दर",
+                "locale": "hi",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35 से 0.50 kg/सप्ताह",
+                "locale": "hi",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "अब तक की वृद्धि",
+                "locale": "hi",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "6.0 kg in 26 सप्ताह",
+                "locale": "hi",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  6,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "इस गर्भावधि आयु पर अपेक्षित सीमा",
+                "locale": "hi",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5.1 से 8.5 kg",
+                "locale": "hi",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अनुशंसित कुल वृद्धि: 11.5 से 16.0 kg · वर्तमान वृद्धि अपेक्षित सीमा के भीतर",
+            "locale": "hi",
+            "template": "documented-authored-5689121b53d5e091e0c7",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "60 kg, 165 cm, 72 kg com 26 semanas: ganho 12 kg, acima de 8,5 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "गर्भावस्था से पहले का BMI",
+                "locale": "hi",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · सामान्य वजन (18,5 ≤ BMI < 25)",
+                "locale": "hi",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "दूसरी और तीसरी तिमाही में दर",
+                "locale": "hi",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.35 से 0.50 kg/सप्ताह",
+                "locale": "hi",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.35,
+                  0.5
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "अब तक की वृद्धि",
+                "locale": "hi",
+                "template": "documented-authored-2aa51814aa8b756584a4"
+              },
+              "value": {
+                "text": "12.0 kg in 26 सप्ताह",
+                "locale": "hi",
+                "template": "documented-authored-056bd5f032f022f3db4c",
+                "sourceNumbers": [
+                  12,
+                  26
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "इस गर्भावधि आयु पर अपेक्षित सीमा",
+                "locale": "hi",
+                "template": "documented-authored-dc634a8daba7547f6b30"
+              },
+              "value": {
+                "text": "5.1 से 8.5 kg",
+                "locale": "hi",
+                "template": "documented-authored-22e0a330aed19874dc98",
+                "sourceNumbers": [
+                  5.1,
+                  8.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अनुशंसित कुल वृद्धि: 11.5 से 16.0 kg · वर्तमान वृद्धि अपेक्षित से अधिक",
+            "locale": "hi",
+            "template": "documented-authored-810f29e5650e39fd2037",
+            "sourceNumbers": [
+              11.5,
+              16
+            ]
+          },
+          "note": {
+            "text": "गर्भावधि आयु के लिए अपेक्षित से अधिक वृद्धि: आहार, शारीरिक गतिविधि और एडिमा (प्री-एक्लेम्पसिया) का पुनर्मूल्यांकन करें।",
+            "locale": "hi",
+            "template": "documented-authored-dbf86973b37c2f40b6cc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "95 kg, 160 cm: IMC 37,1 (obesidade), ganho de 5 a 9 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "गर्भावस्था से पहले का BMI",
+                "locale": "hi",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "37.1 kg/m² · मोटापा (BMI ≥ 30)",
+                "locale": "hi",
+                "template": "documented-authored-fa8d7349de81797ccda8",
+                "sourceNumbers": [
+                  37.1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "दूसरी और तीसरी तिमाही में दर",
+                "locale": "hi",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.17 से 0.27 kg/सप्ताह",
+                "locale": "hi",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.17,
+                  0.27
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अनुशंसित कुल वृद्धि: 5.0 से 9.0 kg",
+            "locale": "hi",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              5,
+              9
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "45 kg, 165 cm: IMC 16,5 (baixo peso), ganho de 12,5 a 18 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "गर्भावस्था से पहले का BMI",
+                "locale": "hi",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "16.5 kg/m² · कम वजन (BMI < 18,5)",
+                "locale": "hi",
+                "template": "documented-authored-c915183f5e3a60d7e670",
+                "sourceNumbers": [
+                  16.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "दूसरी और तीसरी तिमाही में दर",
+                "locale": "hi",
+                "template": "documented-authored-3f220a121cecfaab8d90"
+              },
+              "value": {
+                "text": "0.44 से 0.58 kg/सप्ताह",
+                "locale": "hi",
+                "template": "documented-authored-5fac3fe767e031b1c52f",
+                "sourceNumbers": [
+                  0.44,
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अनुशंसित कुल वृद्धि: 12.5 से 18.0 kg",
+            "locale": "hi",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              12.5,
+              18
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Gemelar, 60 kg, 165 cm (eutrofia): 17 a 25 kg",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "गर्भावस्था से पहले का BMI",
+                "locale": "hi",
+                "template": "documented-authored-d6bfad91f41267027763"
+              },
+              "value": {
+                "text": "22.0 kg/m² · सामान्य वजन (18,5 ≤ BMI < 25)",
+                "locale": "hi",
+                "template": "documented-authored-7f1a2e40a9881301e7ad",
+                "sourceNumbers": [
+                  22
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अनुशंसित कुल वृद्धि: 17.0 से 25.0 kg",
+            "locale": "hi",
+            "template": "documented-authored-346a143c75465e7cb0b7",
+            "sourceNumbers": [
+              17,
+              25
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ]
+  }
+}

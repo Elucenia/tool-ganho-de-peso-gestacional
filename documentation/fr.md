@@ -90,3 +90,72 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Gain total recommandé : 11,5 à 16,0 kg
+
+| Détails du résultat | |
+| --- | --- |
+| IMC avant la grossesse | 22,0 kg/m² · corpulence normale (18,5 ≤ IMC < 25) |
+| Rythme au 2e et au 3e trimestres | 0,35 à 0,50 kg/semaine |
+
+
+### 2
+
+Gain total recommandé : 11,5 à 16,0 kg · gain actuel dans la fourchette attendue
+
+| Détails du résultat | |
+| --- | --- |
+| IMC avant la grossesse | 22,0 kg/m² · corpulence normale (18,5 ≤ IMC < 25) |
+| Rythme au 2e et au 3e trimestres | 0,35 à 0,50 kg/semaine |
+| Gain jusqu’à présent | 6,0 kg en 26 semaines |
+| Fourchette attendue à cet âge gestationnel | 5,1 à 8,5 kg |
+
+
+### 3
+
+Gain total recommandé : 11,5 à 16,0 kg · gain actuel au-dessus de l’attendu
+
+| Détails du résultat | |
+| --- | --- |
+| IMC avant la grossesse | 22,0 kg/m² · corpulence normale (18,5 ≤ IMC < 25) |
+| Rythme au 2e et au 3e trimestres | 0,35 à 0,50 kg/semaine |
+| Gain jusqu’à présent | 12,0 kg en 26 semaines |
+| Fourchette attendue à cet âge gestationnel | 5,1 à 8,5 kg |
+
+Gain supérieur à l’attendu pour l’âge gestationnel : réévaluer l’alimentation, l’activité physique et l’œdème (prééclampsie).
+
+
+### 4
+
+Gain total recommandé : 5,0 à 9,0 kg
+
+| Détails du résultat | |
+| --- | --- |
+| IMC avant la grossesse | 37,1 kg/m² · obésité (IMC ≥ 30) |
+| Rythme au 2e et au 3e trimestres | 0,17 à 0,27 kg/semaine |
+
+
+### 5
+
+Gain total recommandé : 12,5 à 18,0 kg
+
+| Détails du résultat | |
+| --- | --- |
+| IMC avant la grossesse | 16,5 kg/m² · insuffisance pondérale (IMC < 18,5) |
+| Rythme au 2e et au 3e trimestres | 0,44 à 0,58 kg/semaine |
+
+
+### 6
+
+Gain total recommandé : 17,0 à 25,0 kg
+
+| Détails du résultat | |
+| --- | --- |
+| IMC avant la grossesse | 22,0 kg/m² · corpulence normale (18,5 ≤ IMC < 25) |
+

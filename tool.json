@@ -299,7 +299,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "IOMNRC 2009:IMCprégestação, faixatotal/ritmosemanal; projeção local após 13 semanas",
-    "implementationVersion": "ganho-de-peso-gestacional@native-2026-10-03+9b054432c31b",
+    "implementationVersion": "ganho-de-peso-gestacional@native-2026-10-05+39aaf0b2ff8a",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/20669500/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -512,7 +512,7 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f",
+      "implementationHash": "39aaf0b2ff8ae9ca8d46bad62e807715ef4107d53fd8b6385f4128e657b12688",
       "sourceNumericsAmendment": {
         "recordedAt": "2026-10-04T16:03:00.367Z",
         "sourceComposition": {
@@ -550,7 +550,35 @@
         "fullMethodConformance": "not-performed",
         "originalSourceCasesPreserved": true,
         "originalTolerancesPreserved": true
-      }
+      },
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "ganho-de-peso-gestacional@native-2026-10-03+9b054432c31b",
+          "previousImplementationHash": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f",
+          "implementationHash": "39aaf0b2ff8ae9ca8d46bad62e807715ef4107d53fd8b6385f4128e657b12688",
+          "scientificBodySha256": "8b15540afe94a33cb6c2b66ccb98129bc048170709c8fc0ab0ed25e22e5c1485",
+          "metadataContractHash": "94a29fd619df1d98e8aa49b52e06da9b65229f61ba4acbfbb91b0c502372b5ad",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "As faixas são da IOM 2009, elaboradas para gestantes nos Estados Unidos; não são as curvas percentílicas brasileiras de Kac. Use IMC pré-gestacional. As faixas para gestação gemelar são provisórias e não há faixa estabelecida para gemelares com baixo peso nesta fonte. A estimativa por semana da interface combina pressupostos de ganho no primeiro trimestre e taxas posteriores; não é percentil individual nem previsão de desfecho. A aplicação em populações com diferenças importantes de estatura, nutrição ou assistência obstétrica exige avaliação contextual.",
     "limitsEvidence": {
@@ -589,20 +617,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/ganho-de-peso-gestacional/calculator.js",
-    "bytes": 9023,
-    "sha256": "9b054432c31bff6e07ef53436036dd53433df5a5cdf65e34fe654394c744fb8f"
+    "bytes": 9228,
+    "sha256": "39aaf0b2ff8ae9ca8d46bad62e807715ef4107d53fd8b6385f4128e657b12688"
   },
-  "sourceToolSha256": "b9ff0efcf0c2b8492f7d819102763f937e1a985f087b1d66675118d9750b214e",
+  "sourceToolSha256": "257ae77207bb9926ae47d20dc3de1a0cc5bb05ef0aecb5b65c3b682d41b85894",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "60db32e4106b846fc53d9b5cf26ea440e9d95b85d05727779a5dbc0756cbe2f7",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "60db32e4106b846fc53d9b5cf26ea440e9d95b85d05727779a5dbc0756cbe2f7",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

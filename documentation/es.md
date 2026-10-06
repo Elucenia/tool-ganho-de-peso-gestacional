@@ -90,3 +90,72 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Aumento total recomendado: 11,5 a 16,0 kg
+
+| Detalles del resultado | |
+| --- | --- |
+| IMC previo al embarazo | 22,0 kg/m² · normopeso (18,5 ≤ IMC < 25) |
+| Ritmo en el 2.º y 3.º trimestre | 0,35 a 0,50 kg/semana |
+
+
+### 2
+
+Aumento total recomendado: 11,5 a 16,0 kg · aumento actual dentro de lo esperado
+
+| Detalles del resultado | |
+| --- | --- |
+| IMC previo al embarazo | 22,0 kg/m² · normopeso (18,5 ≤ IMC < 25) |
+| Ritmo en el 2.º y 3.º trimestre | 0,35 a 0,50 kg/semana |
+| Aumento hasta ahora | 6,0 kg en 26 semanas |
+| Rango esperado en esta edad gestacional | 5,1 a 8,5 kg |
+
+
+### 3
+
+Aumento total recomendado: 11,5 a 16,0 kg · aumento actual por encima de lo esperado
+
+| Detalles del resultado | |
+| --- | --- |
+| IMC previo al embarazo | 22,0 kg/m² · normopeso (18,5 ≤ IMC < 25) |
+| Ritmo en el 2.º y 3.º trimestre | 0,35 a 0,50 kg/semana |
+| Aumento hasta ahora | 12,0 kg en 26 semanas |
+| Rango esperado en esta edad gestacional | 5,1 a 8,5 kg |
+
+Aumento por encima de lo esperado para la edad gestacional: reevaluar dieta, actividad física y edema (preeclampsia).
+
+
+### 4
+
+Aumento total recomendado: 5,0 a 9,0 kg
+
+| Detalles del resultado | |
+| --- | --- |
+| IMC previo al embarazo | 37,1 kg/m² · obesidad (IMC ≥ 30) |
+| Ritmo en el 2.º y 3.º trimestre | 0,17 a 0,27 kg/semana |
+
+
+### 5
+
+Aumento total recomendado: 12,5 a 18,0 kg
+
+| Detalles del resultado | |
+| --- | --- |
+| IMC previo al embarazo | 16,5 kg/m² · bajo peso (IMC < 18,5) |
+| Ritmo en el 2.º y 3.º trimestre | 0,44 a 0,58 kg/semana |
+
+
+### 6
+
+Aumento total recomendado: 17,0 a 25,0 kg
+
+| Detalles del resultado | |
+| --- | --- |
+| IMC previo al embarazo | 22,0 kg/m² · normopeso (18,5 ≤ IMC < 25) |
+

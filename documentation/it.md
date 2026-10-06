@@ -90,3 +90,72 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Aumento totale raccomandato: 11,5 a 16,0 kg
+
+| Dettagli del risultato | |
+| --- | --- |
+| IMC pregravidico | 22,0 kg/m² · normopeso (18,5 ≤ BMI < 25) |
+| Ritmo nel 2° e 3° trimestre | 0,35 a 0,50 kg/settimana |
+
+
+### 2
+
+Aumento totale raccomandato: 11,5 a 16,0 kg · aumento attuale entro l’atteso
+
+| Dettagli del risultato | |
+| --- | --- |
+| IMC pregravidico | 22,0 kg/m² · normopeso (18,5 ≤ BMI < 25) |
+| Ritmo nel 2° e 3° trimestre | 0,35 a 0,50 kg/settimana |
+| Aumento finora | 6,0 kg in 26 settimane |
+| Intervallo atteso a questa età gestazionale | 5,1 a 8,5 kg |
+
+
+### 3
+
+Aumento totale raccomandato: 11,5 a 16,0 kg · aumento attuale sopra l’atteso
+
+| Dettagli del risultato | |
+| --- | --- |
+| IMC pregravidico | 22,0 kg/m² · normopeso (18,5 ≤ BMI < 25) |
+| Ritmo nel 2° e 3° trimestre | 0,35 a 0,50 kg/settimana |
+| Aumento finora | 12,0 kg in 26 settimane |
+| Intervallo atteso a questa età gestazionale | 5,1 a 8,5 kg |
+
+Aumento superiore all’atteso per l’età gestazionale: rivalutare dieta, attività fisica ed edema (pre-eclampsia).
+
+
+### 4
+
+Aumento totale raccomandato: 5,0 a 9,0 kg
+
+| Dettagli del risultato | |
+| --- | --- |
+| IMC pregravidico | 37,1 kg/m² · obesità (BMI ≥ 30) |
+| Ritmo nel 2° e 3° trimestre | 0,17 a 0,27 kg/settimana |
+
+
+### 5
+
+Aumento totale raccomandato: 12,5 a 18,0 kg
+
+| Dettagli del risultato | |
+| --- | --- |
+| IMC pregravidico | 16,5 kg/m² · sottopeso (BMI < 18,5) |
+| Ritmo nel 2° e 3° trimestre | 0,44 a 0,58 kg/settimana |
+
+
+### 6
+
+Aumento totale raccomandato: 17,0 a 25,0 kg
+
+| Dettagli del risultato | |
+| --- | --- |
+| IMC pregravidico | 22,0 kg/m² · normopeso (18,5 ≤ BMI < 25) |
+

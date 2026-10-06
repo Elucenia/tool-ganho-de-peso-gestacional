@@ -90,3 +90,72 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Recommended total gain: 11.5 to 16.0 kg
+
+| Result details | |
+| --- | --- |
+| Prepregnancy BMI | 22.0 kg/m² · normal weight (18,5 ≤ BMI < 25) |
+| Rate in the 2nd and 3rd trimesters | 0.35 to 0.50 kg/week |
+
+
+### 2
+
+Recommended total gain: 11.5 to 16.0 kg · current gain within expected range
+
+| Result details | |
+| --- | --- |
+| Prepregnancy BMI | 22.0 kg/m² · normal weight (18,5 ≤ BMI < 25) |
+| Rate in the 2nd and 3rd trimesters | 0.35 to 0.50 kg/week |
+| Gain so far | 6.0 kg in 26 weeks |
+| Expected range at this gestational age | 5.1 to 8.5 kg |
+
+
+### 3
+
+Recommended total gain: 11.5 to 16.0 kg · current gain above expected
+
+| Result details | |
+| --- | --- |
+| Prepregnancy BMI | 22.0 kg/m² · normal weight (18,5 ≤ BMI < 25) |
+| Rate in the 2nd and 3rd trimesters | 0.35 to 0.50 kg/week |
+| Gain so far | 12.0 kg in 26 weeks |
+| Expected range at this gestational age | 5.1 to 8.5 kg |
+
+Gain above expected for gestational age: reassess diet, physical activity and edema (pre-eclampsia).
+
+
+### 4
+
+Recommended total gain: 5.0 to 9.0 kg
+
+| Result details | |
+| --- | --- |
+| Prepregnancy BMI | 37.1 kg/m² · obesity (BMI ≥ 30) |
+| Rate in the 2nd and 3rd trimesters | 0.17 to 0.27 kg/week |
+
+
+### 5
+
+Recommended total gain: 12.5 to 18.0 kg
+
+| Result details | |
+| --- | --- |
+| Prepregnancy BMI | 16.5 kg/m² · underweight (BMI < 18,5) |
+| Rate in the 2nd and 3rd trimesters | 0.44 to 0.58 kg/week |
+
+
+### 6
+
+Recommended total gain: 17.0 to 25.0 kg
+
+| Result details | |
+| --- | --- |
+| Prepregnancy BMI | 22.0 kg/m² · normal weight (18,5 ≤ BMI < 25) |
+

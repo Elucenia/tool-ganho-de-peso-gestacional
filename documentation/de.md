@@ -90,3 +90,72 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Empfohlene Gesamtzunahme: 11,5 bis 16,0 kg
+
+| Ergebnisdetails | |
+| --- | --- |
+| BMI vor der Schwangerschaft | 22,0 kg/m² · Normalgewicht (18,5 ≤ BMI < 25) |
+| Rate im 2. und 3. Trimenon | 0,35 bis 0,50 kg/Woche |
+
+
+### 2
+
+Empfohlene Gesamtzunahme: 11,5 bis 16,0 kg · aktuelle Zunahme im erwarteten Bereich
+
+| Ergebnisdetails | |
+| --- | --- |
+| BMI vor der Schwangerschaft | 22,0 kg/m² · Normalgewicht (18,5 ≤ BMI < 25) |
+| Rate im 2. und 3. Trimenon | 0,35 bis 0,50 kg/Woche |
+| Bisherige Zunahme | 6,0 kg in 26 Wochen |
+| Erwarteter Bereich in diesem Gestationsalter | 5,1 bis 8,5 kg |
+
+
+### 3
+
+Empfohlene Gesamtzunahme: 11,5 bis 16,0 kg · aktuelle Zunahme über dem Erwarteten
+
+| Ergebnisdetails | |
+| --- | --- |
+| BMI vor der Schwangerschaft | 22,0 kg/m² · Normalgewicht (18,5 ≤ BMI < 25) |
+| Rate im 2. und 3. Trimenon | 0,35 bis 0,50 kg/Woche |
+| Bisherige Zunahme | 12,0 kg in 26 Wochen |
+| Erwarteter Bereich in diesem Gestationsalter | 5,1 bis 8,5 kg |
+
+Für das Gestationsalter übermäßige Zunahme: Ernährung, körperliche Aktivität und Ödeme (Präeklampsie) erneut beurteilen.
+
+
+### 4
+
+Empfohlene Gesamtzunahme: 5,0 bis 9,0 kg
+
+| Ergebnisdetails | |
+| --- | --- |
+| BMI vor der Schwangerschaft | 37,1 kg/m² · Adipositas (BMI ≥ 30) |
+| Rate im 2. und 3. Trimenon | 0,17 bis 0,27 kg/Woche |
+
+
+### 5
+
+Empfohlene Gesamtzunahme: 12,5 bis 18,0 kg
+
+| Ergebnisdetails | |
+| --- | --- |
+| BMI vor der Schwangerschaft | 16,5 kg/m² · Untergewicht (BMI < 18,5) |
+| Rate im 2. und 3. Trimenon | 0,44 bis 0,58 kg/Woche |
+
+
+### 6
+
+Empfohlene Gesamtzunahme: 17,0 bis 25,0 kg
+
+| Ergebnisdetails | |
+| --- | --- |
+| BMI vor der Schwangerschaft | 22,0 kg/m² · Normalgewicht (18,5 ≤ BMI < 25) |
+
